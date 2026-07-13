@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+import portfolio from '../data/portfolio.json';
+const compact = Astro.props.compact ?? false;
+const { social } = portfolio.profile;
+const { ui } = portfolio;
+---
+<div class:list={['flex items-center', compact ? 'gap-1' : 'gap-2']}>
+  <a class="rounded-lg p-2 text-muted hover:bg-brand-soft hover:text-brand" href={social.github} target="_blank" rel="noreferrer" aria-label={ui.githubProfile.en} data-i18n-attr="aria-label" data-en-aria-label={ui.githubProfile.en} data-it-aria-label={ui.githubProfile.it}><Icon name="github" /></a>
+  <a class="rounded-lg p-2 text-muted hover:bg-brand-soft hover:text-brand" href={social.linkedin} target="_blank" rel="noreferrer" aria-label={ui.linkedinProfile.en} data-i18n-attr="aria-label" data-en-aria-label={ui.linkedinProfile.en} data-it-aria-label={ui.linkedinProfile.it}><Icon name="linkedin" /></a>
+  <a class="rounded-lg p-2 text-muted hover:bg-brand-soft hover:text-brand" href={social.email} aria-label={ui.sendEmail.en} data-i18n-attr="aria-label" data-en-aria-label={ui.sendEmail.en} data-it-aria-label={ui.sendEmail.it}><Icon name="mail" /></a>
+</div>

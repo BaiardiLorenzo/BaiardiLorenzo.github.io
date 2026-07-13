@@ -1,0 +1,75 @@
+---
+import portfolio from '../data/portfolio.json';
+import Icon from './Icon.astro';
+const { profile, navigation, ui } = portfolio;
+---
+<header class="sticky top-0 z-50 border-b border-line/70 bg-canvas/80 backdrop-blur-xl">
+  <nav class="container flex h-16 items-center justify-between" aria-label={ui.primaryNavigation.en} data-i18n-attr="aria-label" data-en-aria-label={ui.primaryNavigation.en} data-it-aria-label={ui.primaryNavigation.it}>
+    <a class="text-lg font-black tracking-tight" href="#home" aria-label={ui.homeAriaLabel.en} data-i18n-attr="aria-label" data-en-aria-label={ui.homeAriaLabel.en} data-it-aria-label={ui.homeAriaLabel.it}><span class="text-brand">{profile.shortName}</span><span class="text-muted">.</span></a>
+    <div class="hidden items-center gap-6 md:flex">{navigation.map((item) => <a class="text-sm font-semibold text-muted transition hover:text-ink" href={`#${item.id}`} data-i18n data-en={item.label.en} data-it={item.label.it}>{item.label.en}</a>)}</div>
+    <div class="flex items-center gap-1">
+      <label class="sr-only" for="language-select" data-i18n data-en={ui.language.en} data-it={ui.language.it}>{ui.language.en}</label>
+      <select id="language-select" class="rounded-lg bg-transparent px-2 py-1.5 text-sm font-bold text-muted hover:bg-brand-soft focus:outline-none" aria-label={ui.chooseLanguage.en} data-i18n-attr="aria-label" data-en-aria-label={ui.chooseLanguage.en} data-it-aria-label={ui.chooseLanguage.it}><option value="en">EN</option><option value="it">IT</option></select>
+      <button id="theme-toggle" class="rounded-lg p-2 text-muted hover:bg-brand-soft hover:text-brand" aria-label={ui.toggleTheme.en} title={ui.toggleTheme.en} data-i18n-attr="aria-label,title" data-en-aria-label={ui.toggleTheme.en} data-it-aria-label={ui.toggleTheme.it} data-en-title={ui.toggleTheme.en} data-it-title={ui.toggleTheme.it}><span class="dark:hidden"><Icon name="moon" /></span><span class="hidden dark:inline"><Icon name="sun" /></span></button>
+      <button id="menu-toggle" class="rounded-lg p-2 text-muted hover:bg-brand-soft md:hidden" aria-label={ui.openMenu.en} aria-expanded="false" aria-controls="mobile-menu" data-en-open-label={ui.openMenu.en} data-it-open-label={ui.openMenu.it} data-en-close-label={ui.closeMenu.en} data-it-close-label={ui.closeMenu.it}><Icon name="menu" /></button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="container hidden border-t border-line py-3 md:hidden"><div class="grid gap-1">{navigation.map((item) => <a class="rounded-lg px-3 py-2 font-semibold text-muted hover:bg-brand-soft hover:text-brand" href={`#${item.id}`} data-i18n data-en={item.label.en} data-it={item.label.it}>{item.label.en}</a>)}</div></div>
+</header>
+<script>
+  const root = document.documentElement;
+  const theme = document.querySelector<HTMLButtonElement>('#theme-toggle');
+  const menu = document.querySelector<HTMLButtonElement>('#menu-toggle');
+  const panel = document.querySelector<HTMLElement>('#mobile-menu');
+  const language = document.querySelector<HTMLSelectElement>('#language-select');
+
+  const setLocalizedAttributes = (locale: string) => document.querySelectorAll<HTMLElement>('[data-i18n-attr]').forEach((node) => {
+    node.dataset.i18nAttr?.split(',').forEach((attribute) => {
+      const value = node.getAttribute(`data-${locale}-${attribute}`);
+      if (value) node.setAttribute(attribute, value);
+    });
+  });
+
+  const setMenuLabel = (locale: string) => {
+    if (!menu) return;
+    const state = menu.getAttribute('aria-expanded') === 'true' ? 'close' : 'open';
+    menu.setAttribute('aria-label', menu.getAttribute(`data-${locale}-${state}-label`) ?? '');
+  };
+
+  const setLanguage = (locale: string) => {
+    root.lang = locale;
+    localStorage.setItem('language', locale);
+    document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((node) => {
+      node.innerHTML = node.getAttribute(`data-${locale}`) ?? '';
+    });
+    setLocalizedAttributes(locale);
+    setMenuLabel(locale);
+    const title = root.getAttribute(`data-page-title-${locale}`) ?? '';
+    const description = root.getAttribute(`data-page-description-${locale}`) ?? '';
+    document.title = title;
+    document.querySelector<HTMLMetaElement>('meta[name="description"]')?.setAttribute('content', description);
+    document.querySelector<HTMLMetaElement>('meta[property="og:title"]')?.setAttribute('content', title);
+    document.querySelector<HTMLMetaElement>('meta[property="og:description"]')?.setAttribute('content', description);
+  };
+
+  theme?.addEventListener('click', () => {
+    const dark = root.classList.toggle('dark');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  });
+  menu?.addEventListener('click', () => {
+    panel?.classList.toggle('hidden');
+    menu.setAttribute('aria-expanded', String(!panel?.classList.contains('hidden')));
+    setMenuLabel(language?.value ?? 'en');
+  });
+  panel?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+    panel.classList.add('hidden');
+    menu?.setAttribute('aria-expanded', 'false');
+    setMenuLabel(language?.value ?? 'en');
+  }));
+  const savedLanguage = localStorage.getItem('language') === 'it' ? 'it' : 'en';
+  if (language) {
+    language.value = savedLanguage;
+    language.addEventListener('change', () => setLanguage(language.value));
+  }
+  setLanguage(savedLanguage);
+</script>

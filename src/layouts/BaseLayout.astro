@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+import portfolio from '../data/portfolio.json';
+const { seo, ui } = portfolio;
+const canonical = new URL(Astro.url.pathname, 'https://baiardilorenzo.github.io');
+---
+<!doctype html>
+<html lang="en" data-page-title-en={seo.title.en} data-page-title-it={seo.title.it} data-page-description-en={seo.description.en} data-page-description-it={seo.description.it}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script is:inline>const t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark');</script>
+    <title>{seo.title.en}</title>
+    <meta name="description" content={seo.description.en} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={seo.title.en} />
+    <meta property="og:description" content={seo.description.en} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body><a class="skip-link" href="#main-content" data-i18n data-en={ui.skipToContent.en} data-it={ui.skipToContent.it}>{ui.skipToContent.en}</a><slot /></body>
+</html>

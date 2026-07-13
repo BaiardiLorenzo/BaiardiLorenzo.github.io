@@ -1,0 +1,1660 @@
+{
+  "profile": {
+    "fullName": "Lorenzo Baiardi",
+    "shortName": "LB",
+    "email": "lorebaia@gmail.com",
+    "location": {
+      "en": "Prato, Tuscany, Italy",
+      "it": "Prato, Toscana, Italia"
+    },
+    "image": {
+      "alt": {
+        "en": "Portrait of Lorenzo Baiardi",
+        "it": "Ritratto di Lorenzo Baiardi"
+      }
+    },
+    "social": {
+      "github": "https://github.com/BaiardiLorenzo",
+      "linkedin": "https://www.linkedin.com/in/lorebaia/",
+      "email": "mailto:lorebaia@gmail.com"
+    }
+  },
+  "seo": {
+    "title": {
+      "en": "Lorenzo Baiardi | Portfolio",
+      "it": "Lorenzo Baiardi | Portfolio"
+    },
+    "description": {
+      "en": "Portfolio of Lorenzo Baiardi, an AI Engineer working on intelligent applications, RAG systems and multi-agent architectures.",
+      "it": "Portfolio di Lorenzo Baiardi, AI Engineer che lavora su applicazioni intelligenti, sistemi RAG e architetture multi-agente."
+    }
+  },
+  "ui": {
+    "skipToContent": {
+      "en": "Skip to content",
+      "it": "Vai al contenuto"
+    },
+    "primaryNavigation": {
+      "en": "Primary navigation",
+      "it": "Navigazione principale"
+    },
+    "language": {
+      "en": "Language",
+      "it": "Lingua"
+    },
+    "chooseLanguage": {
+      "en": "Choose language",
+      "it": "Scegli la lingua"
+    },
+    "toggleTheme": {
+      "en": "Toggle color theme",
+      "it": "Cambia tema colore"
+    },
+    "openMenu": {
+      "en": "Open navigation menu",
+      "it": "Apri menu di navigazione"
+    },
+    "closeMenu": {
+      "en": "Close navigation menu",
+      "it": "Chiudi menu di navigazione"
+    },
+    "githubProfile": {
+      "en": "GitHub profile",
+      "it": "Profilo GitHub"
+    },
+    "linkedinProfile": {
+      "en": "LinkedIn profile",
+      "it": "Profilo LinkedIn"
+    },
+    "sendEmail": {
+      "en": "Send an email",
+      "it": "Invia un'email"
+    },
+    "homeAriaLabel": {
+      "en": "Lorenzo Baiardi home",
+      "it": "Home di Lorenzo Baiardi"
+    },
+    "abstractProjectPreview": {
+      "en": "Abstract preview of {title}",
+      "it": "Anteprima astratta di {title}"
+    }
+  },
+  "terms": {
+    "Generative AI": {
+      "en": "Generative AI",
+      "it": "AI generativa"
+    },
+    "RAG systems": {
+      "en": "RAG systems",
+      "it": "Sistemi RAG"
+    },
+    "Prompt engineering": {
+      "en": "Prompt engineering",
+      "it": "Prompt engineering"
+    },
+    "Agent evaluation": {
+      "en": "Agent evaluation",
+      "it": "Valutazione degli agenti"
+    },
+    "Multi-agent systems": {
+      "en": "Multi-agent systems",
+      "it": "Sistemi multi-agente"
+    },
+    "MCP integrations": {
+      "en": "MCP integrations",
+      "it": "Integrazioni MCP"
+    },
+    "TypeScript & Node.js": {
+      "en": "TypeScript & Node.js",
+      "it": "TypeScript e Node.js"
+    },
+    "Python & REST APIs": {
+      "en": "Python & REST APIs",
+      "it": "Python e API REST"
+    },
+    "Microservices": {
+      "en": "Microservices",
+      "it": "Microservizi"
+    },
+    "GraphQL & gRPC": {
+      "en": "GraphQL & gRPC",
+      "it": "GraphQL e gRPC"
+    },
+    "Java & Kotlin": {
+      "en": "Java & Kotlin",
+      "it": "Java e Kotlin"
+    },
+    "C / C++ & CUDA": {
+      "en": "C / C++ & CUDA",
+      "it": "C / C++ e CUDA"
+    },
+    "JavaScript & TypeScript": {
+      "en": "JavaScript & TypeScript",
+      "it": "JavaScript e TypeScript"
+    },
+    "Dart & Swift": {
+      "en": "Dart & Swift",
+      "it": "Dart e Swift"
+    },
+    "Native iOS & Android": {
+      "en": "Native iOS & Android",
+      "it": "iOS e Android nativi"
+    },
+    "AI-assisted development": {
+      "en": "AI-assisted development",
+      "it": "Sviluppo assistito dall'AI"
+    },
+    "Generative Models": {
+      "en": "Generative Models",
+      "it": "Modelli generativi"
+    },
+    "Computer Vision": {
+      "en": "Computer Vision",
+      "it": "Computer vision"
+    },
+    "Computer Science": {
+      "en": "Computer Science",
+      "it": "Informatica"
+    },
+    "AI Agents": {
+      "en": "AI Agents",
+      "it": "Agenti AI"
+    },
+    "Agent Orchestration": {
+      "en": "Agent Orchestration",
+      "it": "Orchestrazione degli agenti"
+    },
+    "Retrieval": {
+      "en": "Retrieval",
+      "it": "Recupero delle informazioni"
+    },
+    "Evaluation": {
+      "en": "Evaluation",
+      "it": "Valutazione"
+    },
+    "Parallel Programming": {
+      "en": "Parallel Programming",
+      "it": "Programmazione parallela"
+    },
+    "Data Analysis": {
+      "en": "Data Analysis",
+      "it": "Analisi dei dati"
+    },
+    "Reinforcement Learning": {
+      "en": "Reinforcement Learning",
+      "it": "Apprendimento per rinforzo"
+    },
+    "Python": {
+      "en": "Python",
+      "it": "Python"
+    },
+    "Go": {
+      "en": "Go",
+      "it": "Go"
+    },
+    "Docker": {
+      "en": "Docker",
+      "it": "Docker"
+    },
+    "Kubernetes": {
+      "en": "Kubernetes",
+      "it": "Kubernetes"
+    },
+    "Apache Kafka": {
+      "en": "Apache Kafka",
+      "it": "Apache Kafka"
+    },
+    "CI/CD": {
+      "en": "CI/CD",
+      "it": "CI/CD"
+    },
+    "Flutter": {
+      "en": "Flutter",
+      "it": "Flutter"
+    },
+    "Figma": {
+      "en": "Figma",
+      "it": "Figma"
+    },
+    "Jira": {
+      "en": "Jira",
+      "it": "Jira"
+    },
+    "OpenAI Codex": {
+      "en": "OpenAI Codex",
+      "it": "OpenAI Codex"
+    },
+    "GitHub Copilot": {
+      "en": "GitHub Copilot",
+      "it": "GitHub Copilot"
+    },
+    "Claude": {
+      "en": "Claude",
+      "it": "Claude"
+    },
+    "Git & GitHub": {
+      "en": "Git & GitHub",
+      "it": "Git e GitHub"
+    },
+    "RAG": {
+      "en": "RAG",
+      "it": "RAG"
+    },
+    "MCP": {
+      "en": "MCP",
+      "it": "MCP"
+    },
+    "TypeScript": {
+      "en": "TypeScript",
+      "it": "TypeScript"
+    },
+    "Swift": {
+      "en": "Swift",
+      "it": "Swift"
+    },
+    "Kotlin": {
+      "en": "Kotlin",
+      "it": "Kotlin"
+    },
+    "Java": {
+      "en": "Java",
+      "it": "Java"
+    },
+    "Mobile": {
+      "en": "Mobile",
+      "it": "Mobile"
+    },
+    "Android": {
+      "en": "Android",
+      "it": "Android"
+    },
+    "iOS": {
+      "en": "iOS",
+      "it": "iOS"
+    },
+    "Material Design": {
+      "en": "Material Design",
+      "it": "Material Design"
+    },
+    "Research": {
+      "en": "Research",
+      "it": "Ricerca"
+    },
+    "Flask": {
+      "en": "Flask",
+      "it": "Flask"
+    },
+    "Figma API": {
+      "en": "Figma API",
+      "it": "API Figma"
+    },
+    "Node.js": {
+      "en": "Node.js",
+      "it": "Node.js"
+    },
+    "LLMs": {
+      "en": "LLMs",
+      "it": "LLM"
+    },
+    "PyTorch": {
+      "en": "PyTorch",
+      "it": "PyTorch"
+    },
+    "GANs": {
+      "en": "GANs",
+      "it": "GAN"
+    },
+    "VMAF": {
+      "en": "VMAF",
+      "it": "VMAF"
+    },
+    "H.265": {
+      "en": "H.265",
+      "it": "H.265"
+    },
+    "H.264": {
+      "en": "H.264",
+      "it": "H.264"
+    },
+    "Attention": {
+      "en": "Attention",
+      "it": "Attenzione"
+    },
+    "ModelNet40": {
+      "en": "ModelNet40",
+      "it": "ModelNet40"
+    },
+    "C++": {
+      "en": "C++",
+      "it": "C++"
+    },
+    "CUDA": {
+      "en": "CUDA",
+      "it": "CUDA"
+    },
+    "Networks": {
+      "en": "Networks",
+      "it": "Reti"
+    },
+    "Simulation": {
+      "en": "Simulation",
+      "it": "Simulazione"
+    },
+    "MIQP": {
+      "en": "MIQP",
+      "it": "MIQP"
+    },
+    "Gurobi": {
+      "en": "Gurobi",
+      "it": "Gurobi"
+    },
+    "Optimisation": {
+      "en": "Optimisation",
+      "it": "Ottimizzazione"
+    },
+    "CNNs": {
+      "en": "CNNs",
+      "it": "CNN"
+    },
+    "NLP": {
+      "en": "NLP",
+      "it": "NLP"
+    },
+    "Large Language Models": {
+      "en": "Large Language Models",
+      "it": "Large Language Model"
+    },
+    "RAG pipeline design": {
+      "en": "RAG pipeline design",
+      "it": "Progettazione di pipeline RAG"
+    },
+    "Context engineering": {
+      "en": "Context engineering",
+      "it": "Context engineering"
+    },
+    "Orchestrator agents": {
+      "en": "Orchestrator agents",
+      "it": "Agenti orchestratori"
+    },
+    "Model Context Protocol": {
+      "en": "Model Context Protocol",
+      "it": "Model Context Protocol"
+    },
+    "Generative Adversarial Networks": {
+      "en": "Generative Adversarial Networks",
+      "it": "Reti generative avversarie"
+    },
+    "API development": {
+      "en": "API development",
+      "it": "Sviluppo API"
+    },
+    "Distributed systems": {
+      "en": "Distributed systems",
+      "it": "Sistemi distribuiti"
+    },
+    "Multi-Agent Systems": {
+      "en": "Multi-Agent Systems",
+      "it": "Sistemi multi-agente"
+    },
+    "Metadata serialisation": {
+      "en": "Metadata serialisation",
+      "it": "Serializzazione dei metadati"
+    },
+    "Containerisation": {
+      "en": "Containerisation",
+      "it": "Containerizzazione"
+    },
+    "Service orchestration": {
+      "en": "Service orchestration",
+      "it": "Orchestrazione dei servizi"
+    },
+    "Asynchronous communication": {
+      "en": "Asynchronous communication",
+      "it": "Comunicazione asincrona"
+    },
+    "Data processing pipelines": {
+      "en": "Data processing pipelines",
+      "it": "Pipeline di elaborazione dati"
+    },
+    "Bluetooth": {
+      "en": "Bluetooth",
+      "it": "Bluetooth"
+    },
+    "GPS integration": {
+      "en": "GPS integration",
+      "it": "Integrazione GPS"
+    },
+    "Real-time tracking": {
+      "en": "Real-time tracking",
+      "it": "Tracciamento in tempo reale"
+    },
+    "Image Processing": {
+      "en": "Image Processing",
+      "it": "Elaborazione delle immagini"
+    },
+    "Video Processing": {
+      "en": "Video Processing",
+      "it": "Elaborazione video"
+    },
+    "Body Segmentation": {
+      "en": "Body Segmentation",
+      "it": "Segmentazione del corpo"
+    },
+    "Semantic Segmentation": {
+      "en": "Semantic Segmentation",
+      "it": "Segmentazione semantica"
+    },
+    "Perceptual Loss": {
+      "en": "Perceptual Loss",
+      "it": "Loss percettiva"
+    },
+    "PSNR": {
+      "en": "PSNR",
+      "it": "PSNR"
+    },
+    "SSIM": {
+      "en": "SSIM",
+      "it": "SSIM"
+    },
+    "LPIPS": {
+      "en": "LPIPS",
+      "it": "LPIPS"
+    },
+    "Backend Architecture": {
+      "en": "Backend Architecture",
+      "it": "Architettura backend"
+    },
+    "System Design": {
+      "en": "System Design",
+      "it": "Progettazione di sistemi"
+    },
+    "APIs": {
+      "en": "APIs",
+      "it": "API"
+    }
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": {
+        "en": "Home",
+        "it": "Home"
+      }
+    },
+    {
+      "id": "about",
+      "label": {
+        "en": "About",
+        "it": "Profilo"
+      }
+    },
+    {
+      "id": "skills",
+      "label": {
+        "en": "Skills",
+        "it": "Competenze"
+      }
+    },
+    {
+      "id": "experience",
+      "label": {
+        "en": "Experience",
+        "it": "Esperienza"
+      }
+    },
+    {
+      "id": "projects",
+      "label": {
+        "en": "Projects",
+        "it": "Progetti"
+      }
+    },
+    {
+      "id": "insights",
+      "label": {
+        "en": "Insights",
+        "it": "Approfondimenti"
+      }
+    },
+    {
+      "id": "contact",
+      "label": {
+        "en": "Contact",
+        "it": "Contatti"
+      }
+    }
+  ],
+  "hero": {
+    "kicker": {
+      "en": "Welcome — I’m Lorenzo Baiardi",
+      "it": "Benvenuto — sono Lorenzo Baiardi"
+    },
+    "title": {
+      "en": "AI Engineer building <span class=\"text-brand\">intelligent systems</span>.",
+      "it": "AI Engineer che crea <span class=\"text-brand\">sistemi intelligenti</span>."
+    },
+    "description": {
+      "en": "I design and develop intelligent applications, RAG systems and multi-agent architectures, combining generative AI, backend engineering and scalable infrastructure.",
+      "it": "Progetto e sviluppo applicazioni intelligenti, sistemi RAG e architetture multi-agente, integrando AI generativa, backend engineering e infrastrutture scalabili."
+    },
+    "primaryCta": {
+      "en": "View my projects",
+      "it": "Vedi i progetti"
+    },
+    "secondaryCta": {
+      "en": "Contact me",
+      "it": "Contattami"
+    },
+    "availability": {
+      "en": "Available for ideas",
+      "it": "Disponibile per nuove idee"
+    },
+    "visualKicker": {
+      "en": "Digital maker",
+      "it": "Creatore digitale"
+    },
+    "visualTitle": {
+      "en": "AI Engineer & digital maker",
+      "it": "AI Engineer e creatore digitale"
+    },
+    "visualDescription": {
+      "en": "Building useful systems with care and curiosity.",
+      "it": "Creo sistemi utili con cura e curiosità."
+    },
+    "scrollPrompt": {
+      "en": "Scroll to explore ↓",
+      "it": "Scorri per esplorare ↓"
+    }
+  },
+  "about": {
+    "kicker": {
+      "en": "About me",
+      "it": "Chi sono"
+    },
+    "title": {
+      "en": "A little more than a résumé.",
+      "it": "Molto più di un curriculum."
+    },
+    "quote": {
+      "en": "“Make it useful. Make it clear. Make it feel good.”",
+      "it": "“Rendilo utile. Rendilo chiaro. Rendilo piacevole.”"
+    },
+    "text": {
+      "en": "I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I design and deliver Generative AI, Retrieval-Augmented Generation, multi-agent and distributed-backend solutions, connecting language models, enterprise tools, structured data and real-world workflows.",
+      "it": "Sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Progetto e sviluppo soluzioni basate su Generative AI, Retrieval-Augmented Generation, sistemi multi-agente e architetture backend distribuite, collegando modelli linguistici, strumenti aziendali, dati strutturati e processi reali."
+    },
+    "highlights": [
+      {
+        "id": "ai-systems",
+        "order": 1,
+        "visible": true,
+        "title": { "en": "AI systems", "it": "Sistemi AI" },
+        "text": { "en": "Orchestrator agents, LLM integration, RAG pipeline optimisation and business-process automation.", "it": "Agenti orchestratori, integrazione di LLM, ottimizzazione di pipeline RAG e automazione di processi aziendali." }
+      },
+      {
+        "id": "engineering-range",
+        "order": 2,
+        "visible": true,
+        "title": { "en": "Engineering range", "it": "Competenze trasversali" },
+        "text": { "en": "Experience spanning backend services, mobile development, computer vision, image and video processing.", "it": "Esperienza che include servizi backend, sviluppo mobile, computer vision ed elaborazione di immagini e video." }
+      },
+      {
+        "id": "collaboration",
+        "order": 3,
+        "visible": true,
+        "title": { "en": "How I work", "it": "Come lavoro" },
+        "text": { "en": "Collaboration, knowledge sharing and the combination of technical rigour with creativity.", "it": "Collaborazione, condivisione delle conoscenze e unione tra rigore tecnico e creatività." }
+      }
+    ],
+    "locationLabel": {
+      "en": "Based in",
+      "it": "Dove sono"
+    },
+    "focusLabel": {
+      "en": "Current focus",
+      "it": "Focus attuale"
+    },
+    "focus": {
+      "en": "Building reliable, maintainable AI systems that create measurable value for users and organisations.",
+      "it": "Costruire sistemi AI affidabili e manutenibili che generino valore misurabile per utenti e organizzazioni."
+    },
+    "beyondWorkLabel": {
+      "en": "Beyond work",
+      "it": "Oltre il lavoro"
+    },
+    "interests": {
+      "en": "Beyond engineering, music and creativity are an important source of balance and inspiration in both technology and life.",
+      "it": "Oltre all'ingegneria, musica e creatività sono una fonte importante di equilibrio e ispirazione, nella tecnologia come nella vita."
+    },
+    "stats": [
+      {
+        "id": "masters-grade",
+        "order": 1,
+        "visible": true,
+        "value": "110/110",
+        "label": {
+          "en": "Master’s degree grade",
+          "it": "Voto di laurea magistrale"
+        }
+      },
+      {
+        "id": "ai-case-studies",
+        "order": 2,
+        "visible": true,
+        "value": "06+",
+        "label": {
+          "en": "AI case studies",
+          "it": "Casi studio AI"
+        }
+      },
+      {
+        "id": "qualifications",
+        "order": 3,
+        "visible": true,
+        "value": "03",
+        "label": {
+          "en": "Academic qualifications",
+          "it": "Titoli di studio"
+        }
+      },
+      {
+        "id": "languages",
+        "order": 4,
+        "visible": true,
+        "value": "02",
+        "label": {
+          "en": "Languages: Italian & English",
+          "it": "Lingue: italiano e inglese"
+        }
+      }
+    ],
+    "selectedWork": {
+      "kicker": { "en": "Selected engagements", "it": "Esperienze selezionate" },
+      "title": { "en": "Applied AI, from architecture to delivery.", "it": "AI applicata, dall'architettura alla realizzazione." },
+      "items": [
+        {
+          "id": "hyper-video",
+          "order": 1,
+          "visible": true,
+          "title": { "en": "Hyper NTT DATA", "it": "Hyper NTT DATA" },
+          "description": { "en": "Cognitive services for automated video-content analysis.", "it": "Servizi cognitivi per l'analisi automatizzata di contenuti video." },
+          "contributions": [
+            { "en": "Designed systems to detect opening and closing sequences and identify suitable advertising-placement points.", "it": "Progettati sistemi per rilevare sequenze di introduzione e conclusione e individuare punti adatti al posizionamento pubblicitario." },
+            { "en": "Integrated and optimised commercial LLM APIs, defining application logic across cognitive services, backend components and external APIs.", "it": "Integrate e ottimizzate API LLM commerciali, definendo la logica tra servizi cognitivi, componenti backend e API esterne." }
+          ],
+          "tags": ["Video Processing", "LLMs", "Backend Architecture"]
+        },
+        {
+          "id": "osservatorio",
+          "order": 2,
+          "visible": true,
+          "title": { "en": "Osservatorio 2.0", "it": "Osservatorio 2.0" },
+          "description": { "en": "Architecture analysis and design for the evolution of an enterprise platform.", "it": "Analisi e progettazione architetturale per l'evoluzione di una piattaforma aziendale." },
+          "contributions": [
+            { "en": "Analysed the existing architecture and identified improvement opportunities.", "it": "Analizzata l'architettura esistente e identificate le aree di miglioramento." },
+            { "en": "Defined the end-to-end target architecture, application components, integrations, dependencies and information flows.", "it": "Definita l'architettura end-to-end, i componenti applicativi, le integrazioni, le dipendenze e i flussi informativi." }
+          ],
+          "tags": ["System Design", "Distributed systems", "APIs"]
+        },
+        {
+          "id": "wolters-kluwer",
+          "order": 3,
+          "visible": true,
+          "title": { "en": "Wolters Kluwer — AI automation", "it": "Wolters Kluwer — automazione AI" },
+          "description": { "en": "RAG and multi-agent solutions built with the proprietary FAB framework for intelligent agents and backend services.", "it": "Soluzioni RAG e multi-agente sviluppate con FAB, framework proprietario per agenti intelligenti e servizi backend." },
+          "contributions": [
+            { "en": "Designed an orchestrator agent that transforms Figma and Jira context into structured software-development artefacts, including user stories.", "it": "Progettato un agente orchestratore che trasforma il contesto Figma e Jira in artefatti strutturati per lo sviluppo software, incluse le user story." },
+            { "en": "Built Figma crawling and metadata-serialisation workflows that provide structured design context to AI agents.", "it": "Sviluppati workflow di crawling e serializzazione dei metadati Figma per fornire contesto strutturato agli agenti AI." },
+            { "en": "Analysed and improved RAG systems through retrieval, context, prompt and output optimisation, debugging and functional validation.", "it": "Analizzati e migliorati sistemi RAG attraverso ottimizzazione di retrieval, contesto, prompt e output, debugging e validazione funzionale." }
+          ],
+          "tags": ["RAG", "Multi-Agent Systems", "Figma API", "Jira", "Prompt engineering"]
+        }
+      ]
+    }
+  },
+  "skills": {
+    "kicker": {
+      "en": "Capabilities",
+      "it": "Competenze"
+    },
+    "title": {
+      "en": "Tools I use to shape ideas.",
+      "it": "Strumenti per trasformare idee in sistemi."
+    },
+    "description": {
+      "en": "A practical, evolving toolkit for designing and delivering intelligent systems.",
+      "it": "Un insieme pratico e in evoluzione di strumenti per progettare e realizzare sistemi intelligenti."
+    },
+    "groups": [
+      {
+        "id": "generative-ai",
+        "order": 1,
+        "visible": true,
+        "name": {
+          "en": "Generative AI & RAG",
+          "it": "AI generativa e RAG"
+        },
+        "description": {
+          "en": "Grounded, useful language-model applications.",
+          "it": "Applicazioni con modelli linguistici affidabili e utili."
+        },
+        "items": [
+          {
+            "name": "Generative AI",
+            "icon": "✦"
+          },
+          {
+            "name": "RAG systems",
+            "icon": "⌕"
+          },
+          {
+            "name": "Prompt engineering",
+            "icon": "⌘"
+          },
+          {
+            "name": "Agent evaluation",
+            "icon": "✓"
+          },
+          {
+            "name": "Large Language Models",
+            "icon": "LLM"
+          },
+          {
+            "name": "RAG pipeline design",
+            "icon": "RAG"
+          },
+          {
+            "name": "Context engineering",
+            "icon": "CTX"
+          },
+          {
+            "name": "Generative Adversarial Networks",
+            "icon": "GAN"
+          }
+        ]
+      },
+      {
+        "id": "agents-backend",
+        "order": 2,
+        "visible": true,
+        "name": {
+          "en": "Agents & Backend",
+          "it": "Agenti e backend"
+        },
+        "description": {
+          "en": "Intelligent workflows with strong foundations.",
+          "it": "Workflow intelligenti con solide fondamenta."
+        },
+        "items": [
+          {
+            "name": "Multi-agent systems",
+            "icon": "◈"
+          },
+          {
+            "name": "MCP integrations",
+            "icon": "↔"
+          },
+          {
+            "name": "TypeScript & Node.js",
+            "icon": "⬡"
+          },
+          {
+            "name": "Python & REST APIs",
+            "icon": "◉"
+          },
+          {
+            "name": "Microservices",
+            "icon": "◫"
+          },
+          {
+            "name": "GraphQL & gRPC",
+            "icon": "◇"
+          },
+          {
+            "name": "Orchestrator agents",
+            "icon": "OA"
+          },
+          {
+            "name": "Model Context Protocol",
+            "icon": "MCP"
+          },
+          {
+            "name": "API development",
+            "icon": "API"
+          },
+          {
+            "name": "Distributed systems",
+            "icon": "DS"
+          },
+          {
+            "name": "Metadata serialisation",
+            "icon": "MD"
+          }
+        ]
+      },
+      {
+        "id": "languages",
+        "order": 3,
+        "visible": true,
+        "name": {
+          "en": "Languages",
+          "it": "Linguaggi"
+        },
+        "description": {
+          "en": "A multidisciplinary programming foundation.",
+          "it": "Una base di programmazione multidisciplinare."
+        },
+        "items": [
+          {
+            "name": "Python",
+            "icon": "◉"
+          },
+          {
+            "name": "Java & Kotlin",
+            "icon": "☕"
+          },
+          {
+            "name": "C / C++ & CUDA",
+            "icon": "++"
+          },
+          {
+            "name": "JavaScript & TypeScript",
+            "icon": "JS"
+          },
+          {
+            "name": "Go",
+            "icon": "Go"
+          },
+          {
+            "name": "Dart & Swift",
+            "icon": "→"
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "order": 4,
+        "visible": true,
+        "name": {
+          "en": "Infrastructure & data",
+          "it": "Infrastruttura e dati"
+        },
+        "description": {
+          "en": "Foundational knowledge for delivery at scale.",
+          "it": "Competenze fondamentali per distribuire soluzioni su scala."
+        },
+        "items": [
+          {
+            "name": "Docker",
+            "icon": "□"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "⎈"
+          },
+          {
+            "name": "Apache Kafka",
+            "icon": "≋"
+          },
+          {
+            "name": "CI/CD",
+            "icon": "↻"
+          },
+          {
+            "name": "Containerisation",
+            "icon": "CT"
+          },
+          {
+            "name": "Service orchestration",
+            "icon": "SO"
+          },
+          {
+            "name": "Asynchronous communication",
+            "icon": "AC"
+          },
+          {
+            "name": "Data processing pipelines",
+            "icon": "DP"
+          }
+        ]
+      },
+      {
+        "id": "mobile-frontend",
+        "order": 5,
+        "visible": true,
+        "name": {
+          "en": "Mobile & frontend",
+          "it": "Mobile e frontend"
+        },
+        "description": {
+          "en": "From native apps to cross-platform experiences.",
+          "it": "Dalle app native alle esperienze multipiattaforma."
+        },
+        "items": [
+          {
+            "name": "Flutter",
+            "icon": "▣"
+          },
+          {
+            "name": "Native iOS & Android",
+            "icon": "◌"
+          },
+          {
+            "name": "Figma",
+            "icon": "●"
+          },
+          {
+            "name": "Jira",
+            "icon": "◇"
+          },
+          {
+            "name": "Bluetooth",
+            "icon": "BT"
+          },
+          {
+            "name": "GPS integration",
+            "icon": "GPS"
+          },
+          {
+            "name": "Real-time tracking",
+            "icon": "RT"
+          },
+          {
+            "name": "Material Design",
+            "icon": "MD"
+          }
+        ]
+      },
+      {
+        "id": "image-video",
+        "order": 6,
+        "visible": true,
+        "name": {
+          "en": "Image & video processing",
+          "it": "Elaborazione di immagini e video"
+        },
+        "description": {
+          "en": "Computer-vision foundations and real-time quality experiments.",
+          "it": "Fondamenti di computer vision e sperimentazione sulla qualità in tempo reale."
+        },
+        "items": [
+          { "name": "Image Processing", "icon": "IMG" },
+          { "name": "Video Processing", "icon": "VID" },
+          { "name": "Body Segmentation", "icon": "BS" },
+          { "name": "Semantic Segmentation", "icon": "SS" },
+          { "name": "H.264", "icon": "H4" },
+          { "name": "H.265", "icon": "H5" },
+          { "name": "Perceptual Loss", "icon": "PL" },
+          { "name": "PSNR", "icon": "PS" },
+          { "name": "SSIM", "icon": "SI" },
+          { "name": "LPIPS", "icon": "LP" },
+          { "name": "VMAF", "icon": "VM" }
+        ]
+      },
+      {
+        "id": "ai-assisted-development",
+        "order": 7,
+        "visible": true,
+        "name": {
+          "en": "AI-assisted development",
+          "it": "Sviluppo assistito dall'AI"
+        },
+        "description": {
+          "en": "Tools used thoughtfully for productivity and review.",
+          "it": "Strumenti usati con cura per produttività e revisione."
+        },
+        "items": [
+          {
+            "name": "OpenAI Codex",
+            "icon": "✦"
+          },
+          {
+            "name": "GitHub Copilot",
+            "icon": "◉"
+          },
+          {
+            "name": "Claude",
+            "icon": "◇"
+          },
+          {
+            "name": "Git & GitHub",
+            "icon": "◇"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "kicker": {
+      "en": "Path so far",
+      "it": "Percorso"
+    },
+    "title": {
+      "en": "Experience, education & research.",
+      "it": "Esperienza, formazione e ricerca."
+    },
+    "items": [
+      {
+        "id": "ntt-data",
+        "order": 1,
+        "visible": true,
+        "title": {
+          "en": "AI Engineer",
+          "it": "AI Engineer"
+        },
+        "organization": {
+          "en": "NTT DATA — enterprise client projects",
+          "it": "NTT DATA — progetti per clienti enterprise"
+        },
+        "period": {
+          "en": "Present",
+          "it": "Oggi"
+        },
+        "location": {
+          "en": "Italy",
+          "it": "Italia"
+        },
+        "description": {
+          "en": "Development and improvement of enterprise Generative AI solutions, with a focus on RAG systems, multi-agent workflows, Jira integrations, MCP-based automation, prompt engineering and agent evaluation.",
+          "it": "Sviluppo e miglioramento di soluzioni enterprise di AI generativa, con focus su sistemi RAG, workflow multi-agente, integrazioni Jira, automazione basata su MCP, prompt engineering e valutazione degli agenti."
+        },
+        "achievements": [
+          {
+            "en": "Designed AI-assisted workflows for ticket analysis and classification",
+            "it": "Progettati workflow assistiti dall'AI per l'analisi e la classificazione dei ticket"
+          },
+          {
+            "en": "Collaborated with stakeholders on requirements, issue analysis and technical solutions",
+            "it": "Collaborato con gli stakeholder su requisiti, analisi dei problemi e soluzioni tecniche"
+          }
+        ],
+        "tags": ["Generative AI", "RAG", "MCP", "TypeScript"]
+      },
+      {
+        "id": "startit-developer",
+        "order": 2,
+        "visible": true,
+        "title": {
+          "en": "Mobile Application Developer",
+          "it": "Sviluppatore di applicazioni mobile"
+        },
+        "organization": {
+          "en": "StartIT S.r.l.",
+          "it": "StartIT S.r.l."
+        },
+        "period": {
+          "en": "Oct 2019 — Feb 2020",
+          "it": "Ott 2019 — Feb 2020"
+        },
+        "location": {
+          "en": "Prato, Italy",
+          "it": "Prato, Italia"
+        },
+        "description": {
+          "en": "Developed native iOS and Android applications, including Bluetooth communication, GPS features and Google service integrations.",
+          "it": "Sviluppate applicazioni native iOS e Android, comprese comunicazione Bluetooth, funzionalità GPS e integrazioni con servizi Google."
+        },
+        "achievements": [
+          {
+            "en": "Built features with Swift, Java and Kotlin",
+            "it": "Realizzate funzionalità con Swift, Java e Kotlin"
+          },
+          {
+            "en": "Performed debugging, functional testing and UI-flow improvements",
+            "it": "Eseguiti debugging, test funzionali e miglioramenti dei flussi UI"
+          }
+        ],
+        "tags": ["Swift", "Kotlin", "Java", "Mobile"]
+      },
+      {
+        "id": "startit-intern",
+        "order": 3,
+        "visible": true,
+        "title": {
+          "en": "Mobile Application Developer Intern",
+          "it": "Tirocinante sviluppatore di applicazioni mobile"
+        },
+        "organization": {
+          "en": "StartIT S.r.l.",
+          "it": "StartIT S.r.l."
+        },
+        "period": {
+          "en": "May 2018 — Sep 2018",
+          "it": "Mag 2018 — Set 2018"
+        },
+        "location": {
+          "en": "Prato, Italy",
+          "it": "Prato, Italia"
+        },
+        "description": {
+          "en": "Supported development and maintenance of native iOS and Android applications.",
+          "it": "Supportato lo sviluppo e la manutenzione di applicazioni native iOS e Android."
+        },
+        "achievements": [
+          {
+            "en": "Applied Material Design principles",
+            "it": "Applicati i principi del Material Design"
+          },
+          {
+            "en": "Integrated Google services and supported testing",
+            "it": "Integrati servizi Google e supportate le attività di testing"
+          }
+        ],
+        "tags": ["Android", "iOS", "Material Design"]
+      },
+      {
+        "id": "masters-degree",
+        "order": 4,
+        "visible": true,
+        "title": {
+          "en": "Master’s Degree in Artificial Intelligence",
+          "it": "Laurea magistrale in Intelligenza Artificiale"
+        },
+        "organization": {
+          "en": "University of Florence",
+          "it": "Università degli Studi di Firenze"
+        },
+        "period": {
+          "en": "2022 — 2025 · 110/110",
+          "it": "2022 — 2025 · 110/110"
+        },
+        "location": {
+          "en": "Florence, Italy",
+          "it": "Firenze, Italia"
+        },
+        "description": {
+          "en": "Advanced programme in artificial intelligence, machine learning, computer vision, deep learning, data analysis and intelligent systems. Thesis: Real-Time Video Quality Enhancement Using Generative Models.",
+          "it": "Percorso avanzato in intelligenza artificiale, machine learning, computer vision, deep learning, analisi dei dati e sistemi intelligenti. Tesi: Miglioramento della qualità video in tempo reale con modelli generativi."
+        },
+        "achievements": [
+          {
+            "en": "Compared objective and perceptual video-quality metrics",
+            "it": "Confrontate metriche oggettive e percettive della qualità video"
+          },
+          {
+            "en": "Explored real-time generative enhancement of compressed video",
+            "it": "Esplorato il miglioramento generativo in tempo reale di video compressi"
+          },
+          {
+            "en": "Worked with GANs, H.264/H.265 video workflows and perceptual losses across different compression levels",
+            "it": "Lavorato con GAN, workflow video H.264/H.265 e loss percettive a diversi livelli di compressione"
+          },
+          {
+            "en": "Evaluated quality with PSNR, SSIM, LPIPS and VMAF, balancing visual quality, performance and computational cost",
+            "it": "Valutata la qualità con PSNR, SSIM, LPIPS e VMAF, bilanciando qualità visiva, prestazioni e costo computazionale"
+          }
+        ],
+        "tags": ["Computer Vision", "Generative Models", "Video Processing", "VMAF", "LPIPS", "PSNR", "SSIM"]
+      },
+      {
+        "id": "bachelors-degree",
+        "order": 5,
+        "visible": true,
+        "title": {
+          "en": "Bachelor’s Degree in Computer Science and Engineering",
+          "it": "Laurea triennale in Ingegneria Informatica"
+        },
+        "organization": {
+          "en": "University of Florence",
+          "it": "Università degli Studi di Firenze"
+        },
+        "period": {
+          "en": "2019 — 2022",
+          "it": "2019 — 2022"
+        },
+        "location": {
+          "en": "Florence, Italy",
+          "it": "Firenze, Italia"
+        },
+        "description": {
+          "en": "Thesis: Gamification for Museums through AI: Clothing Exchange with Art Characters.",
+          "it": "Tesi: Gamification per musei attraverso l'AI: scambio di abiti con personaggi artistici."
+        },
+        "achievements": [
+          {
+            "en": "Built a Flutter application with a Python and Flask backend",
+            "it": "Realizzata un'applicazione Flutter con backend Python e Flask"
+          },
+          {
+            "en": "Explored body segmentation and interactive cultural experiences",
+            "it": "Esplorate segmentazione del corpo ed esperienze culturali interattive"
+          },
+          {
+            "en": "Connected mobile, backend and AI components through an image-processing pipeline for virtual clothing exchange",
+            "it": "Collegati componenti mobile, backend e AI tramite una pipeline di image processing per lo scambio virtuale di abiti"
+          }
+        ],
+        "tags": ["Flutter", "Python", "Flask", "Image Processing", "Body Segmentation"]
+      },
+      {
+        "id": "high-school",
+        "order": 6,
+        "visible": true,
+        "title": {
+          "en": "Diploma in Computer Science and Telecommunications",
+          "it": "Diploma in Informatica e Telecomunicazioni"
+        },
+        "organization": {
+          "en": "I.T.I. Tullio Buzzi",
+          "it": "I.T.I. Tullio Buzzi"
+        },
+        "period": {
+          "en": "2014 — 2019",
+          "it": "2014 — 2019"
+        },
+        "location": {
+          "en": "Prato, Italy",
+          "it": "Prato, Italia"
+        },
+        "description": {
+          "en": "Technical education in computer science and telecommunications.",
+          "it": "Formazione tecnica in informatica e telecomunicazioni."
+        },
+        "achievements": [
+          {
+            "en": "Developed MyBuzzi 2.0, an Android app for school-register access",
+            "it": "Sviluppata MyBuzzi 2.0, un'app Android per l'accesso al registro scolastico"
+          },
+          {
+            "en": "Participated in regional and team Computer Science Olympiads",
+            "it": "Partecipato alle Olimpiadi di Informatica regionali e a squadre"
+          }
+        ],
+        "tags": ["Android", "Computer Science"]
+      }
+    ]
+  },
+  "projects": {
+    "kicker": {
+      "en": "Selected work",
+      "it": "Progetti selezionati"
+    },
+    "title": {
+      "en": "A few things I’ve made.",
+      "it": "Alcune cose che ho realizzato."
+    },
+    "githubCta": {
+      "en": "See GitHub ↗",
+      "it": "Vedi GitHub ↗"
+    },
+    "code": {
+      "en": "Code",
+      "it": "Codice"
+    },
+    "demo": {
+      "en": "Demo",
+      "it": "Demo"
+    },
+    "caseStudyOnly": {
+      "en": "Public case study only",
+      "it": "Solo caso studio pubblico"
+    },
+    "items": [
+      {
+        "id": "libra-ticket-intelligence",
+        "order": 1,
+        "visible": true,
+        "title": {
+          "en": "Libra Ticket Intelligence",
+          "it": "Libra Ticket Intelligence"
+        },
+        "description": {
+          "en": "AI-assisted Jira ticket clustering and analysis using MCP-based integrations and intelligent agents to reduce manual categorisation work.",
+          "it": "Analisi e raggruppamento assistiti dall'AI dei ticket Jira, tramite integrazioni MCP e agenti intelligenti per ridurre la categorizzazione manuale."
+        },
+        "category": {
+          "en": "Enterprise AI",
+          "it": "AI enterprise"
+        },
+        "date": {
+          "en": "Current",
+          "it": "In corso"
+        },
+        "featured": true,
+        "technologies": ["Jira", "MCP", "RAG", "AI Agents", "TypeScript"],
+        "image": "/images/project-aster.svg",
+        "confidential": true
+      },
+      {
+        "id": "orchestrator-agent",
+        "order": 2,
+        "visible": true,
+        "title": {
+          "en": "Multi-Agent User Story Generator",
+          "it": "Generatore multi-agente di user story"
+        },
+        "description": {
+          "en": "An orchestrator-agent workflow combining Figma and Jira context to support specialised agents in generating user stories.",
+          "it": "Un workflow con agente orchestratore che unisce contesto Figma e Jira per supportare agenti specializzati nella generazione di user story."
+        },
+        "category": {
+          "en": "Multi-Agent Systems",
+          "it": "Sistemi multi-agente"
+        },
+        "date": {
+          "en": "Current",
+          "it": "In corso"
+        },
+        "featured": true,
+        "technologies": ["RAG", "Jira", "Figma", "Agent Orchestration"],
+        "image": "/images/project-signal.svg",
+        "confidential": true
+      },
+      {
+        "id": "figma-crawler",
+        "order": 3,
+        "visible": true,
+        "title": {
+          "en": "Figma Knowledge Crawler",
+          "it": "Figma Knowledge Crawler"
+        },
+        "description": {
+          "en": "A pipeline that retrieves and serialises Figma content and metadata for AI-agent consumption.",
+          "it": "Una pipeline che recupera e serializza contenuti e metadati Figma per l'utilizzo da parte di agenti AI."
+        },
+        "category": {
+          "en": "AI Infrastructure",
+          "it": "Infrastruttura AI"
+        },
+        "date": {
+          "en": "Current",
+          "it": "In corso"
+        },
+        "featured": false,
+        "technologies": ["Figma API", "Node.js", "TypeScript", "Retrieval"],
+        "image": "/images/project-notes.svg",
+        "confidential": true
+      },
+      {
+        "id": "prompt-improvement",
+        "order": 4,
+        "visible": true,
+        "title": {
+          "en": "AI Prompt Improvement Pipeline",
+          "it": "Pipeline di miglioramento dei prompt AI"
+        },
+        "description": {
+          "en": "A workflow for analysing failure cases, feedback and ticket data to propose and evaluate system-prompt improvements.",
+          "it": "Un workflow per analizzare errori, feedback e ticket e proporre e valutare miglioramenti ai system prompt."
+        },
+        "category": {
+          "en": "Generative AI",
+          "it": "AI generativa"
+        },
+        "date": {
+          "en": "Current",
+          "it": "In corso"
+        },
+        "featured": false,
+        "technologies": ["LLMs", "Prompt engineering", "MCP", "Evaluation"],
+        "image": "/images/project-aster.svg",
+        "confidential": true
+      },
+      {
+        "id": "srv-unet",
+        "order": 5,
+        "visible": true,
+        "title": {
+          "en": "SRV-UNet",
+          "it": "SRV-UNet"
+        },
+        "description": {
+          "en": "GAN-based neural network for video-quality and bitrate improvement, trained with VMAF/VMAF-NEG loss and evaluated with H.265 workflows.",
+          "it": "Rete neurale basata su GAN per migliorare qualità video e bitrate, addestrata con loss VMAF/VMAF-NEG e valutata con workflow H.265."
+        },
+        "category": {
+          "en": "Computer Vision Research",
+          "it": "Ricerca in computer vision"
+        },
+        "date": {
+          "en": "Academic",
+          "it": "Accademico"
+        },
+        "featured": true,
+        "technologies": ["Python", "PyTorch", "GANs", "VMAF", "H.265"],
+        "github": "https://github.com/BaiardiLorenzo/srv-unet",
+        "image": "/images/project-notes.svg"
+      },
+      {
+        "id": "perceiver",
+        "order": 6,
+        "visible": true,
+        "title": {
+          "en": "Perceiver",
+          "it": "Perceiver"
+        },
+        "description": {
+          "en": "PyTorch implementation of the Perceiver architecture, trained on ModelNet40 with training and test code.",
+          "it": "Implementazione PyTorch dell'architettura Perceiver, addestrata su ModelNet40 con codice di training e test."
+        },
+        "category": {
+          "en": "Deep Learning",
+          "it": "Deep learning"
+        },
+        "date": {
+          "en": "Academic",
+          "it": "Accademico"
+        },
+        "featured": false,
+        "technologies": ["Python", "PyTorch", "Attention", "ModelNet40"],
+        "github": "https://github.com/BaiardiLorenzo/Perceiver",
+        "image": "/images/project-signal.svg"
+      },
+      {
+        "id": "renderer-cuda",
+        "order": 7,
+        "visible": true,
+        "title": {
+          "en": "CUDA Parallel Renderer",
+          "it": "Renderer parallelo CUDA"
+        },
+        "description": {
+          "en": "C++ and CUDA project comparing sequential, parallel and CUDA implementations of a compositing method.",
+          "it": "Progetto in C++ e CUDA che confronta implementazioni sequenziali, parallele e CUDA di un metodo di compositing."
+        },
+        "category": {
+          "en": "Parallel Computing",
+          "it": "Calcolo parallelo"
+        },
+        "date": {
+          "en": "Academic",
+          "it": "Accademico"
+        },
+        "featured": false,
+        "technologies": ["C++", "CUDA", "Parallel Programming"],
+        "github": "https://github.com/BaiardiLorenzo/renderer_cuda",
+        "image": "/images/project-aster.svg"
+      },
+      {
+        "id": "epydemic",
+        "order": 8,
+        "visible": true,
+        "title": {
+          "en": "Epydemic",
+          "it": "Epydemic"
+        },
+        "description": {
+          "en": "Multiplex-network simulation studying how epidemic transmission and information diffusion influence contagion dynamics.",
+          "it": "Simulazione su reti multiplex che studia come la trasmissione epidemica e la diffusione delle informazioni influenzino il contagio."
+        },
+        "category": {
+          "en": "Complex Systems",
+          "it": "Sistemi complessi"
+        },
+        "date": {
+          "en": "2024",
+          "it": "2024"
+        },
+        "featured": false,
+        "technologies": ["Python", "Networks", "Simulation", "Data Analysis"],
+        "github": "https://github.com/BaiardiLorenzo/Epydemic",
+        "image": "/images/project-notes.svg"
+      },
+      {
+        "id": "constrained-kmeans",
+        "order": 9,
+        "visible": true,
+        "title": {
+          "en": "Constrained K-Means",
+          "it": "K-Means vincolato"
+        },
+        "description": {
+          "en": "Experimental comparison of traditional K-Means and MIQP for balanced constrained clustering.",
+          "it": "Confronto sperimentale tra K-Means tradizionale e MIQP per il clustering vincolato e bilanciato."
+        },
+        "category": {
+          "en": "Machine Learning",
+          "it": "Machine learning"
+        },
+        "date": {
+          "en": "2023",
+          "it": "2023"
+        },
+        "featured": false,
+        "technologies": ["Python", "MIQP", "Gurobi", "Optimisation"],
+        "github": "https://github.com/BaiardiLorenzo/constrained_kmeans",
+        "image": "/images/project-signal.svg"
+      },
+      {
+        "id": "dla-labs",
+        "order": 10,
+        "visible": true,
+        "title": {
+          "en": "Deep Learning Applications Labs",
+          "it": "Laboratori di Deep Learning Applications"
+        },
+        "description": {
+          "en": "University labs covering CNN image classification, NLP, deep reinforcement learning and OOD/adversarial learning experiments.",
+          "it": "Laboratori universitari su classificazione immagini con CNN, NLP, deep reinforcement learning ed esperimenti OOD/adversarial learning."
+        },
+        "category": {
+          "en": "Deep Learning",
+          "it": "Deep learning"
+        },
+        "date": {
+          "en": "Academic",
+          "it": "Accademico"
+        },
+        "featured": false,
+        "technologies": ["Python", "CNNs", "NLP", "Reinforcement Learning"],
+        "github": "https://github.com/BaiardiLorenzo/DLA",
+        "image": "/images/project-aster.svg"
+      }
+    ]
+  },
+  "insights": {
+    "kicker": {
+      "en": "Writing & notes",
+      "it": "Articoli e note"
+    },
+    "title": {
+      "en": "Ideas worth documenting.",
+      "it": "Idee che vale la pena raccontare."
+    },
+    "description": {
+      "en": "A space for practical notes on AI engineering, research and systems design. These drafts are ready to become full posts when you are.",
+      "it": "Uno spazio per appunti pratici su AI engineering, ricerca e progettazione di sistemi. Queste bozze potranno diventare articoli completi quando vuoi."
+    },
+    "draftLabel": {
+      "en": "Draft — coming soon",
+      "it": "Bozza — prossimamente"
+    },
+    "items": [
+      {
+        "id": "reliable-rag",
+        "order": 1,
+        "visible": true,
+        "published": {
+          "en": "Planned",
+          "it": "In programma"
+        },
+        "category": {
+          "en": "RAG",
+          "it": "RAG"
+        },
+        "title": {
+          "en": "Building reliable RAG systems",
+          "it": "Costruire sistemi RAG affidabili"
+        },
+        "excerpt": {
+          "en": "Notes on retrieval quality, grounded answers and evaluation in real-world AI applications.",
+          "it": "Appunti su qualità del retrieval, risposte grounded e valutazione in applicazioni AI reali."
+        }
+      },
+      {
+        "id": "agentic-workflows",
+        "order": 2,
+        "visible": true,
+        "published": {
+          "en": "Planned",
+          "it": "In programma"
+        },
+        "category": {
+          "en": "AI Agents",
+          "it": "Agenti AI"
+        },
+        "title": {
+          "en": "Agentic workflows and enterprise tools",
+          "it": "Workflow agentici e strumenti enterprise"
+        },
+        "excerpt": {
+          "en": "How structured context, tool routing and human review shape useful AI-agent experiences.",
+          "it": "Come contesto strutturato, tool routing e revisione umana rendono utili le esperienze con agenti AI."
+        }
+      },
+      {
+        "id": "video-quality",
+        "order": 3,
+        "visible": true,
+        "published": {
+          "en": "Planned",
+          "it": "In programma"
+        },
+        "category": {
+          "en": "Research",
+          "it": "Ricerca"
+        },
+        "title": {
+          "en": "Video quality through generative models",
+          "it": "Qualità video e modelli generativi"
+        },
+        "excerpt": {
+          "en": "A research perspective on compression, perceptual metrics and real-time enhancement.",
+          "it": "Una prospettiva di ricerca su compressione, metriche percettive e miglioramento in tempo reale."
+        }
+      }
+    ]
+  },
+  "contact": {
+    "kicker": {
+      "en": "Let’s connect",
+      "it": "Restiamo in contatto"
+    },
+    "title": {
+      "en": "Have an idea worth talking about?",
+      "it": "Hai un'idea di cui vale la pena parlare?"
+    },
+    "text": {
+      "en": "Whether it’s a role, project, collaboration, or simply a good conversation about technology, my inbox is open.",
+      "it": "Che si tratti di un ruolo, progetto, collaborazione o semplicemente di una buona conversazione sulla tecnologia, la mia casella di posta è aperta."
+    },
+    "cta": {
+      "en": "Write to me",
+      "it": "Scrivimi"
+    }
+  },
+  "footer": {
+    "rights": {
+      "en": "© {year} Lorenzo Baiardi. All rights reserved.",
+      "it": "© {year} Lorenzo Baiardi. Tutti i diritti riservati."
+    },
+    "builtWith": {
+      "en": "Built with Astro and Tailwind CSS.",
+      "it": "Realizzato con Astro e Tailwind CSS."
+    },
+    "backToTop": {
+      "en": "Back to top ↑",
+      "it": "Torna in alto ↑"
+    }
+  }
+}
