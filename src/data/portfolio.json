@@ -80,6 +80,74 @@
     }
   },
   "terms": {
+    "Agentic Design Patterns": {
+      "en": "Agentic Design Patterns",
+      "it": "Pattern di progettazione agentica"
+    },
+    "Prompt Engineering": {
+      "en": "Prompt Engineering",
+      "it": "Prompt engineering"
+    },
+    "Context Engineering": {
+      "en": "Context Engineering",
+      "it": "Context engineering"
+    },
+    "AI Evaluation": {
+      "en": "AI Evaluation",
+      "it": "Valutazione AI"
+    },
+    "Retrieval Optimization": {
+      "en": "Retrieval Optimization",
+      "it": "Ottimizzazione del retrieval"
+    },
+    "LLM Integration": {
+      "en": "LLM Integration",
+      "it": "Integrazione di LLM"
+    },
+    "OpenAI GPT APIs": {
+      "en": "OpenAI GPT APIs",
+      "it": "API OpenAI GPT"
+    },
+    "Node.js (Advanced)": {
+      "en": "Node.js (Advanced)",
+      "it": "Node.js (avanzato)"
+    },
+    "REST APIs": {
+      "en": "REST APIs",
+      "it": "API REST"
+    },
+    "Containerization": {
+      "en": "Containerization",
+      "it": "Containerizzazione"
+    },
+    "Distributed Systems": {
+      "en": "Distributed Systems",
+      "it": "Sistemi distribuiti"
+    },
+    "FAB (Foundation And Beyond)": {
+      "en": "FAB (Foundation And Beyond)",
+      "it": "FAB (Foundation And Beyond)"
+    },
+    "Libra Connector": {
+      "en": "Libra Connector",
+      "it": "Libra Connector"
+    },
+    "Evaluator": {
+      "en": "Evaluator",
+      "it": "Evaluator"
+    },
+    "One AI": {
+      "en": "One AI",
+      "it": "One AI"
+    },
+    "Git": {
+      "en": "Git",
+      "it": "Git"
+    },
+    "GitHub": {
+      "en": "GitHub",
+      "it": "GitHub"
+    },
     "Generative AI": {
       "en": "Generative AI",
       "it": "AI generativa"
@@ -530,12 +598,12 @@
       "it": "Benvenuto — sono Lorenzo Baiardi"
     },
     "title": {
-      "en": "AI Engineer building <span class=\"text-brand\">intelligent systems</span>.",
-      "it": "AI Engineer che crea <span class=\"text-brand\">sistemi intelligenti</span>."
+      "en": "I build intelligent systems that turn <span class=\"text-brand\">complexity into practical solutions</span>.",
+      "it": "Progetto sistemi intelligenti che trasformano <span class=\"text-brand\">la complessità in soluzioni concrete</span>."
     },
     "description": {
-      "en": "I design and develop intelligent applications, RAG systems and multi-agent architectures, combining generative AI, backend engineering and scalable infrastructure.",
-      "it": "Progetto e sviluppo applicazioni intelligenti, sistemi RAG e architetture multi-agente, integrando AI generativa, backend engineering e infrastrutture scalabili."
+      "en": "AI Software Engineer and Backend Developer specialising in Generative AI, RAG systems, multi-agent architectures and scalable service integrations.",
+      "it": "AI Software Engineer e Backend Developer specializzato in AI generativa, sistemi RAG, architetture multi-agente e integrazione di servizi scalabili."
     },
     "primaryCta": {
       "en": "View my projects",
@@ -550,16 +618,16 @@
       "it": "Disponibile per nuove idee"
     },
     "visualKicker": {
-      "en": "Digital maker",
-      "it": "Creatore digitale"
+      "en": "AI & Backend",
+      "it": "AI e backend"
     },
     "visualTitle": {
-      "en": "AI Engineer & digital maker",
-      "it": "AI Engineer e creatore digitale"
+      "en": "AI Software Engineer",
+      "it": "AI Software Engineer"
     },
     "visualDescription": {
-      "en": "Building useful systems with care and curiosity.",
-      "it": "Creo sistemi utili con cura e curiosità."
+      "en": "From AI architecture to dependable backend delivery.",
+      "it": "Dall'architettura AI a servizi backend affidabili."
     },
     "scrollPrompt": {
       "en": "Scroll to explore ↓",
@@ -669,8 +737,8 @@
       }
     ],
     "selectedWork": {
-      "kicker": { "en": "Selected engagements", "it": "Esperienze selezionate" },
-      "title": { "en": "Applied AI, from architecture to delivery.", "it": "AI applicata, dall'architettura alla realizzazione." },
+      "kicker": { "en": "Professional experience", "it": "Esperienza professionale" },
+      "title": { "en": "Enterprise AI, from architecture to delivery.", "it": "AI enterprise, dall'architettura alla realizzazione." },
       "items": [
         {
           "id": "hyper-video",
@@ -697,35 +765,233 @@
           "tags": ["System Design", "Distributed systems", "APIs"]
         },
         {
-          "id": "wolters-kluwer",
+          "id": "orchestrator-agent",
           "order": 3,
           "visible": true,
-          "title": { "en": "Wolters Kluwer — AI automation", "it": "Wolters Kluwer — automazione AI" },
-          "description": { "en": "RAG and multi-agent solutions built with the proprietary FAB framework for intelligent agents and backend services.", "it": "Soluzioni RAG e multi-agente sviluppate con FAB, framework proprietario per agenti intelligenti e servizi backend." },
+          "title": { "en": "Wolters Kluwer Italia — Orchestrator Agent", "it": "Wolters Kluwer Italia — Orchestrator Agent" },
+          "description": { "en": "Designed with FAB (Foundation And Beyond) to automate functional-documentation generation for La Mia Biblioteca / LRSIT.", "it": "Progettato con FAB (Foundation And Beyond) per automatizzare la generazione della documentazione funzionale per La Mia Biblioteca / LRSIT." },
           "contributions": [
-            { "en": "Designed an orchestrator agent that transforms Figma and Jira context into structured software-development artefacts, including user stories.", "it": "Progettato un agente orchestratore che trasforma il contesto Figma e Jira in artefatti strutturati per lo sviluppo software, incluse le user story." },
-            { "en": "Built Figma crawling and metadata-serialisation workflows that provide structured design context to AI agents.", "it": "Sviluppati workflow di crawling e serializzazione dei metadati Figma per fornire contesto strutturato agli agenti AI." },
-            { "en": "Analysed and improved RAG systems through retrieval, context, prompt and output optimisation, debugging and functional validation.", "it": "Analizzati e migliorati sistemi RAG attraverso ottimizzazione di retrieval, contesto, prompt e output, debugging e validazione funzionale." }
+            { "en": "Generated user stories from Figma mockups and Jira tickets.", "it": "Generate User Story a partire da mockup Figma e ticket Jira." },
+            { "en": "Coordinated specialised AI agents through retrieval pipelines and task delegation.", "it": "Coordinati agenti AI specializzati attraverso pipeline di retrieval e delega delle attività." },
+            { "en": "Integrated Figma, Jira and AI services into a single workflow.", "it": "Integrati Figma, Jira e servizi AI in un unico workflow." }
           ],
-          "tags": ["RAG", "Multi-Agent Systems", "Figma API", "Jira", "Prompt engineering"]
+          "tags": ["RAG", "Multi-Agent Systems", "FAB (Foundation And Beyond)", "Figma", "Jira"]
+        },
+        {
+          "id": "figma-crawler",
+          "order": 4,
+          "visible": true,
+          "title": { "en": "Wolters Kluwer Italia — Figma Crawler", "it": "Wolters Kluwer Italia — Figma Crawler" },
+          "description": { "en": "Crawler developed within the FAB infrastructure to provide structured design context to AI agents.", "it": "Crawler sviluppato nell'infrastruttura FAB per fornire contesto di design strutturato agli agenti AI." },
+          "contributions": [
+            { "en": "Extracted Figma content and serialised metadata automatically.", "it": "Estratti automaticamente i contenuti Figma e serializzati i metadati." },
+            { "en": "Prepared retrievable context for RAG and multi-agent systems.", "it": "Preparato il contesto recuperabile per sistemi RAG e multi-agente." }
+          ],
+          "tags": ["Figma", "RAG", "Multi-Agent Systems", "Context Engineering"]
+        },
+        {
+          "id": "one-ai-libra",
+          "order": 5,
+          "visible": true,
+          "title": { "en": "Wolters Kluwer Italia — One AI / Libra", "it": "Wolters Kluwer Italia — One AI / Libra" },
+          "description": { "en": "Development, maintenance and optimisation of Wolters Kluwer AI systems.", "it": "Sviluppo, manutenzione e ottimizzazione dei sistemi AI di Wolters Kluwer." },
+          "contributions": [
+            { "en": "Diagnosed RAG-agent issues and optimised retrieval pipelines, prompts and output quality.", "it": "Analizzati e risolti bug degli agenti RAG; ottimizzate pipeline di retrieval, prompt e qualità degli output." },
+            { "en": "Managed Libra, Libra Connector and Evaluator modules, including One AI vertical modules (Carbons).", "it": "Gestiti i moduli Libra, Libra Connector ed Evaluator, inclusi i moduli verticali (Carbons) della piattaforma One AI." }
+          ],
+          "tags": ["RAG", "Prompt Engineering", "Retrieval Optimization", "AI Evaluation", "Libra"]
+        },
+        {
+          "id": "jira-mcp-automation",
+          "order": 6,
+          "visible": true,
+          "title": { "en": "Wolters Kluwer Italia — Jira Automation & MCP", "it": "Wolters Kluwer Italia — Automazione Jira e MCP" },
+          "description": { "en": "Intelligent automation for development processes.", "it": "Sistemi intelligenti per l'automazione dei processi di sviluppo." },
+          "contributions": [
+            { "en": "Clustered Jira tickets automatically through Model Context Protocol integrations and AI agents.", "it": "Raggruppati automaticamente ticket Jira tramite integrazioni Model Context Protocol e agenti AI." },
+            { "en": "Improved system prompts from analysed tickets and evaluated RAG-agent performance with dedicated metrics.", "it": "Migliorati i system prompt in funzione dei ticket analizzati e valutate le performance degli agenti RAG con metriche dedicate." }
+          ],
+          "tags": ["MCP", "Jira", "AI Evaluation", "Prompt Engineering"]
+        },
+        {
+          "id": "wolters-kluwer-collaboration",
+          "order": 7,
+          "visible": true,
+          "title": { "en": "Wolters Kluwer Italia — Cross-functional Responsibilities", "it": "Wolters Kluwer Italia — Attività trasversali" },
+          "description": { "en": "Technical ownership and client collaboration across the delivery lifecycle.", "it": "Responsabilità tecnica e collaborazione con il cliente lungo l'intero ciclo di realizzazione." },
+          "contributions": [
+            { "en": "Managed the direct relationship with Wolters Kluwer Italia and gathered functional and technical requirements.", "it": "Gestito il rapporto diretto con Wolters Kluwer Italia e raccolto requisiti funzionali e tecnici." },
+            { "en": "Supported analysis, design and validation, taking technical responsibility for the delivered solutions.", "it": "Supportate analisi, progettazione e validazione, assumendo la responsabilità tecnica delle soluzioni realizzate." }
+          ],
+          "tags": ["System Design", "Backend Architecture", "Jira"]
+        }
+      ],
+      "groups": [
+        {
+          "id": "ntt-data-cognitive-services",
+          "order": 1,
+          "visible": true,
+          "organization": { "en": "NTT DATA — AI Cognitive Services", "it": "NTT DATA — AI Cognitive Services" },
+          "role": { "en": "AI Software Engineer / Backend Developer", "it": "AI Software Engineer / Backend Developer" },
+          "items": [
+            {
+              "id": "hyper",
+              "title": { "en": "Hyper", "it": "Hyper" },
+              "description": { "en": "Cognitive services for the automated analysis of video content.", "it": "Servizi cognitivi per l'analisi automatizzata di contenuti video." },
+              "contributions": [
+                { "en": "Developed systems for automatic detection of intro and outro sequences.", "it": "Sviluppati sistemi per il rilevamento automatico di sequenze intro/outro." },
+                { "en": "Implemented algorithms for advertising placement and integrated commercial LLM APIs, including OpenAI GPT.", "it": "Implementati algoritmi per il posizionamento pubblicitario e integrate API LLM commerciali, incluse OpenAI GPT." },
+                { "en": "Designed backend logic and integration flows between AI services.", "it": "Progettata la logica backend e i flussi di integrazione tra servizi AI." }
+              ],
+              "tags": ["Video Processing", "OpenAI GPT APIs", "Backend Architecture"]
+            },
+            {
+              "id": "osservatorio-2-0",
+              "title": { "en": "Osservatorio 2.0", "it": "Osservatorio 2.0" },
+              "description": { "en": "Requirements analysis and architectural design for a new enterprise platform.", "it": "Studio, analisi dei requisiti e progettazione architetturale della nuova piattaforma." },
+              "contributions": [
+                { "en": "Analysed the existing architecture and defined the end-to-end target architecture.", "it": "Analizzata l'architettura esistente e definita l'architettura end-to-end." },
+                { "en": "Designed backend components and carried out functional and technical analysis of the platform.", "it": "Progettati i componenti backend e svolta l'analisi funzionale e tecnica della piattaforma." }
+              ],
+              "tags": ["System Design", "Backend Architecture", "Distributed Systems"]
+            }
+          ]
+        },
+        {
+          "id": "wolters-kluwer-italia",
+          "order": 2,
+          "visible": true,
+          "organization": { "en": "NTT DATA — Client: Wolters Kluwer Italia", "it": "NTT DATA — Cliente: Wolters Kluwer Italia" },
+          "role": { "en": "AI Software Engineer", "it": "AI Software Engineer" },
+          "items": [
+            {
+              "id": "orchestrator-agent",
+              "title": { "en": "Orchestrator Agent — La Mia Biblioteca / LRSIT", "it": "Orchestrator Agent — La Mia Biblioteca / LRSIT" },
+              "description": { "en": "An orchestrator agent built with the proprietary FAB (Foundation And Beyond) framework to automate functional-documentation generation.", "it": "Agente orchestratore realizzato con il framework proprietario FAB (Foundation And Beyond) per automatizzare la generazione della documentazione funzionale." },
+              "contributions": [
+                { "en": "Generated user stories from Figma mockups and Jira tickets.", "it": "Generate User Story a partire da mockup Figma e ticket Jira." },
+                { "en": "Coordinated specialised AI agents through FAB, with retrieval pipelines and task delegation.", "it": "Coordinati agenti AI specializzati tramite FAB, con pipeline di retrieval e delega delle attività." },
+                { "en": "Integrated Figma, Jira and AI services into a single workflow.", "it": "Integrati Figma, Jira e servizi AI in un unico workflow." }
+              ],
+              "tags": ["Multi-Agent Systems", "RAG", "FAB (Foundation And Beyond)", "Figma", "Jira"]
+            },
+            {
+              "id": "figma-crawler",
+              "title": { "en": "Figma Crawler", "it": "Figma Crawler" },
+              "description": { "en": "A crawler developed within the FAB infrastructure to provide structured design context to AI agents.", "it": "Crawler sviluppato nell'infrastruttura FAB per fornire contesto di design strutturato agli agenti AI." },
+              "contributions": [
+                { "en": "Extracted Figma content and serialised its metadata automatically.", "it": "Estratti automaticamente i contenuti da Figma e serializzati i relativi metadati." },
+                { "en": "Prepared retrievable context for RAG and multi-agent systems.", "it": "Preparato il contesto recuperabile per sistemi RAG e multi-agente." }
+              ],
+              "tags": ["Figma", "RAG", "Multi-Agent Systems", "Context Engineering"]
+            },
+            {
+              "id": "one-ai-libra",
+              "title": { "en": "One AI / Libra", "it": "One AI / Libra" },
+              "description": { "en": "Development, maintenance and optimisation of Wolters Kluwer AI systems.", "it": "Sviluppo, manutenzione e ottimizzazione dei sistemi AI di Wolters Kluwer." },
+              "contributions": [
+                { "en": "Diagnosed RAG-agent issues and optimised retrieval pipelines, prompts and output quality.", "it": "Analizzati e risolti bug degli agenti RAG; ottimizzate pipeline di retrieval, prompt e qualità degli output." },
+                { "en": "Managed Libra, Libra Connector and Evaluator modules, including One AI vertical modules (Carbons).", "it": "Gestiti i moduli Libra, Libra Connector ed Evaluator, inclusi i moduli verticali (Carbons) della piattaforma One AI." }
+              ],
+              "tags": ["RAG", "Prompt Engineering", "Retrieval Optimization", "AI Evaluation", "Libra"]
+            },
+            {
+              "id": "jira-mcp-automation",
+              "title": { "en": "Jira Automation & MCP", "it": "Automazione Jira e MCP" },
+              "description": { "en": "Intelligent automation for development processes.", "it": "Sistemi intelligenti per l'automazione dei processi di sviluppo." },
+              "contributions": [
+                { "en": "Clustered Jira tickets automatically through Model Context Protocol integrations and AI agents.", "it": "Raggruppati automaticamente ticket Jira tramite integrazioni Model Context Protocol e agenti AI." },
+                { "en": "Improved system prompts from analysed tickets and evaluated RAG-agent performance with dedicated metrics.", "it": "Migliorati i system prompt in funzione dei ticket analizzati e valutate le performance degli agenti RAG con metriche dedicate." }
+              ],
+              "tags": ["MCP", "Jira", "AI Evaluation", "Prompt Engineering"]
+            }
+          ],
+          "collaboration": {
+            "title": { "en": "Cross-functional responsibilities", "it": "Attività trasversali" },
+            "items": [
+              { "en": "Direct relationship management with Wolters Kluwer Italia.", "it": "Gestione diretta del rapporto con il cliente Wolters Kluwer Italia." },
+              { "en": "Functional and technical requirements gathering.", "it": "Raccolta requisiti funzionali e tecnici." },
+              { "en": "Technical ownership, analysis, design and validation support.", "it": "Responsabilità tecnica delle soluzioni e supporto ad analisi, progettazione e validazione." }
+            ]
+          }
         }
       ]
     }
   },
   "skills": {
     "kicker": {
-      "en": "Capabilities",
+      "en": "Technical skills",
       "it": "Competenze"
     },
     "title": {
-      "en": "Tools I use to shape ideas.",
+      "en": "A focused toolkit for intelligent systems.",
       "it": "Strumenti per trasformare idee in sistemi."
     },
     "description": {
-      "en": "A practical, evolving toolkit for designing and delivering intelligent systems.",
+      "en": "From AI design and evaluation to backend implementation, platforms and delivery tooling.",
       "it": "Un insieme pratico e in evoluzione di strumenti per progettare e realizzare sistemi intelligenti."
     },
     "groups": [
+      {
+        "id": "artificial-intelligence",
+        "order": 1,
+        "visible": true,
+        "name": { "en": "Artificial Intelligence", "it": "Intelligenza artificiale" },
+        "description": { "en": "Designing, integrating and evaluating LLM-powered systems.", "it": "Progettazione, integrazione e valutazione di sistemi basati su LLM." },
+        "items": [
+          { "name": "Generative AI", "icon": "AI" }, { "name": "RAG", "icon": "RAG" }, { "name": "Multi-Agent Systems", "icon": "MAS" },
+          { "name": "Agentic Design Patterns", "icon": "ADP" }, { "name": "Prompt Engineering", "icon": "PE" }, { "name": "Context Engineering", "icon": "CE" },
+          { "name": "MCP", "icon": "MCP" }, { "name": "AI Evaluation", "icon": "EV" }, { "name": "Retrieval Optimization", "icon": "RO" },
+          { "name": "LLM Integration", "icon": "LLM" }, { "name": "OpenAI GPT APIs", "icon": "GPT" }
+        ]
+      },
+      {
+        "id": "backend-development",
+        "order": 2,
+        "visible": true,
+        "name": { "en": "Backend Development", "it": "Sviluppo backend" },
+        "description": { "en": "APIs, services and integrations for production systems.", "it": "API, servizi e integrazioni per sistemi in produzione." },
+        "items": [
+          { "name": "Node.js (Advanced)", "icon": "NJS" }, { "name": "TypeScript", "icon": "TS" }, { "name": "JavaScript", "icon": "JS" },
+          { "name": "Python", "icon": "PY" }, { "name": "REST APIs", "icon": "API" }, { "name": "GraphQL", "icon": "GQL" },
+          { "name": "gRPC", "icon": "RPC" }, { "name": "Microservices", "icon": "MS" }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "order": 3,
+        "visible": true,
+        "name": { "en": "Infrastructure", "it": "Infrastruttura" },
+        "description": { "en": "Containerised, distributed and event-driven environments.", "it": "Ambienti containerizzati, distribuiti e guidati dagli eventi." },
+        "items": [
+          { "name": "Docker", "icon": "DK" }, { "name": "Kubernetes", "icon": "K8" }, { "name": "Apache Kafka", "icon": "KF" },
+          { "name": "Containerization", "icon": "CT" }, { "name": "Distributed Systems", "icon": "DS" }
+        ]
+      },
+      {
+        "id": "ai-frameworks-platforms",
+        "order": 4,
+        "visible": true,
+        "name": { "en": "AI Frameworks & Platforms", "it": "Framework e piattaforme AI" },
+        "description": { "en": "Enterprise platforms and frameworks for AI agents.", "it": "Piattaforme e framework enterprise per agenti AI." },
+        "items": [
+          { "name": "FAB (Foundation And Beyond)", "icon": "FAB" }, { "name": "Libra", "icon": "LIB" }, { "name": "Libra Connector", "icon": "LC" },
+          { "name": "Evaluator", "icon": "EV" }, { "name": "One AI", "icon": "AI" }
+        ]
+      },
+      {
+        "id": "development-tools",
+        "order": 5,
+        "visible": true,
+        "name": { "en": "Development Tools", "it": "Strumenti di sviluppo" },
+        "description": { "en": "Tools for collaboration, delivery and AI-assisted development.", "it": "Strumenti per collaborazione, delivery e sviluppo assistito dall'AI." },
+        "items": [
+          { "name": "Git", "icon": "GIT" }, { "name": "GitHub", "icon": "GH" }, { "name": "Jira", "icon": "JR" }, { "name": "Figma", "icon": "FG" },
+          { "name": "OpenAI Codex", "icon": "CX" }, { "name": "GitHub Copilot", "icon": "CP" }, { "name": "Claude", "icon": "CL" }
+        ]
+      }
+    ],
+    "legacyGroups": [
       {
         "id": "generative-ai",
         "order": 1,
@@ -1030,8 +1296,8 @@
       "it": "Percorso"
     },
     "title": {
-      "en": "Experience, education & research.",
-      "it": "Esperienza, formazione e ricerca."
+      "en": "Professional experience & education.",
+      "it": "Esperienza professionale e formazione."
     },
     "items": [
       {
@@ -1039,12 +1305,12 @@
         "order": 1,
         "visible": true,
         "title": {
-          "en": "AI Engineer",
-          "it": "AI Engineer"
+          "en": "AI Software Engineer / Backend Developer",
+          "it": "AI Software Engineer / Backend Developer"
         },
         "organization": {
-          "en": "NTT DATA — enterprise client projects",
-          "it": "NTT DATA — progetti per clienti enterprise"
+          "en": "NTT DATA",
+          "it": "NTT DATA"
         },
         "period": {
           "en": "Present",
@@ -1055,20 +1321,20 @@
           "it": "Italia"
         },
         "description": {
-          "en": "Development and improvement of enterprise Generative AI solutions, with a focus on RAG systems, multi-agent workflows, Jira integrations, MCP-based automation, prompt engineering and agent evaluation.",
-          "it": "Sviluppo e miglioramento di soluzioni enterprise di AI generativa, con focus su sistemi RAG, workflow multi-agente, integrazioni Jira, automazione basata su MCP, prompt engineering e valutazione degli agenti."
+          "en": "Design and development of cognitive services, Generative AI solutions and backend architectures for NTT DATA and Wolters Kluwer Italia.",
+          "it": "Progettazione e sviluppo di servizi cognitivi, soluzioni di AI generativa e architetture backend per NTT DATA e Wolters Kluwer Italia."
         },
         "achievements": [
           {
-            "en": "Designed AI-assisted workflows for ticket analysis and classification",
-            "it": "Progettati workflow assistiti dall'AI per l'analisi e la classificazione dei ticket"
+            "en": "Designed end-to-end architectures, backend components and integrations for enterprise platforms",
+            "it": "Progettate architetture end-to-end, componenti backend e integrazioni per piattaforme enterprise"
           },
           {
-            "en": "Collaborated with stakeholders on requirements, issue analysis and technical solutions",
-            "it": "Collaborato con gli stakeholder su requisiti, analisi dei problemi e soluzioni tecniche"
+            "en": "Managed client relationships, gathered requirements and took technical ownership of the delivered solutions",
+            "it": "Gestito il rapporto con il cliente, raccolto requisiti e assunto la responsabilità tecnica delle soluzioni realizzate"
           }
         ],
-        "tags": ["Generative AI", "RAG", "MCP", "TypeScript"]
+        "tags": ["Generative AI", "RAG", "Multi-Agent Systems", "MCP", "Backend Architecture"]
       },
       {
         "id": "startit-developer",
