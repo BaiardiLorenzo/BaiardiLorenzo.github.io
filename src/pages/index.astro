@@ -23,7 +23,7 @@ const rights = (value: string) => value.replace('{year}', String(new Date().getF
           <h1 class="max-w-3xl text-5xl font-black leading-[1.04] tracking-[-.055em] sm:text-6xl lg:text-7xl" data-i18n data-en={hero.title.en} data-it={hero.title.it} set:html={hero.title.en}></h1>
           <p class="mt-6 max-w-xl text-lg leading-8 text-muted" data-i18n data-en={hero.description.en} data-it={hero.description.it}>{hero.description.en}</p>
           <div class="mt-8 flex flex-wrap gap-3"><a class="button button-primary" href="#projects"><span data-i18n data-en={hero.primaryCta.en} data-it={hero.primaryCta.it}>{hero.primaryCta.en}</span><Icon name="arrow" size={18} /></a><a class="button button-secondary" href="#contact" data-i18n data-en={hero.secondaryCta.en} data-it={hero.secondaryCta.it}>{hero.secondaryCta.en}</a></div>
-          <div class="mt-8"><SocialLinks /></div>
+          <div class="mt-10 flex items-center gap-3 border-t border-line pt-6"><span class="text-sm font-semibold text-muted" data-i18n data-en="Find me on" data-it="Seguimi su">Seguimi su</span><SocialLinks /></div>
         </div>
         <div class="reveal relative mx-auto w-full max-w-md"><div class="absolute -inset-4 -z-10 rounded-[2.5rem] bg-gradient-to-br from-brand/20 to-emerald-300/20 blur-2xl"></div><div class="glass rounded-[2rem] p-5 shadow-2xl shadow-brand/10"><div class="aspect-[4/5] overflow-hidden rounded-[1.4rem] bg-slate-900"><img class="h-full w-full object-cover object-center" src={profilePhoto.src} width={profilePhoto.width} height={profilePhoto.height} alt={profile.image.alt.en} data-i18n-attr="alt" data-en-alt={profile.image.alt.en} data-it-alt={profile.image.alt.it} fetchpriority="high" /></div></div></div>
       </div>

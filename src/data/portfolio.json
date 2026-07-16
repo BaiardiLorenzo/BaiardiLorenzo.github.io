@@ -594,20 +594,20 @@
   ],
   "hero": {
     "kicker": {
-      "en": "Welcome — I’m Lorenzo Baiardi",
-      "it": "Benvenuto — sono Lorenzo Baiardi"
+      "en": "AI Software Engineer",
+      "it": "AI Software Engineer"
     },
     "title": {
-      "en": "I build intelligent systems that turn <span class=\"text-brand\">complexity into practical solutions</span>.",
-      "it": "Progetto sistemi intelligenti che trasformano <span class=\"text-brand\">la complessità in soluzioni concrete</span>."
+      "en": "I design intelligent products that turn <span class=\"text-brand\">complexity into useful experiences</span>.",
+      "it": "Progetto prodotti intelligenti che trasformano <span class=\"text-brand\">la complessità in esperienze utili</span>."
     },
     "description": {
-      "en": "AI Software Engineer and Full-Stack Developer specialising in Generative AI, and RAG systems.",
-      "it": "AI Software Engineer e Full-Stack Developer specializzato in AI generativa, e sistemi RAG."
+      "en": "I work across AI, backend and full-stack development to connect models, data and interfaces into reliable products.",
+      "it": "Lavoro tra AI, backend e sviluppo full-stack per trasformare modelli, dati e interfacce in prodotti affidabili."
     },
     "primaryCta": {
-      "en": "View my projects",
-      "it": "Vedi i progetti"
+      "en": "Explore projects",
+      "it": "Esplora i progetti"
     },
     "secondaryCta": {
       "en": "Contact me",
@@ -655,21 +655,21 @@
       {
         "id": "ai-systems",
         "order": 1,
-        "visible": true,
+        "visible": false,
         "title": { "en": "Intelligent products", "it": "Prodotti intelligenti" },
         "text": { "en": "AI solutions that combine models, data, tools and real workflows.", "it": "Soluzioni AI che uniscono modelli, dati, strumenti e workflow reali." }
       },
       {
         "id": "engineering-range",
         "order": 2,
-        "visible": true,
+        "visible": false,
         "title": { "en": "End-to-end development", "it": "Sviluppo end-to-end" },
         "text": { "en": "From backend services to web and mobile interfaces, with a solid computer-vision foundation.", "it": "Dai servizi backend alle interfacce web e mobile, con solide basi di computer vision." }
       },
       {
         "id": "collaboration",
         "order": 3,
-        "visible": true,
+        "visible": false,
         "title": { "en": "How I work", "it": "Come lavoro" },
         "text": { "en": "Technical rigour, direct communication and a collaborative approach to delivery.", "it": "Rigore tecnico, comunicazione diretta e approccio collaborativo alla realizzazione." }
       }

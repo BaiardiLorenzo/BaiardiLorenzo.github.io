@@ -16,6 +16,9 @@ html { scroll-behavior: smooth; } body { background: var(--color-canvas); color:
 #projects article[role="link"]:focus-visible { outline: 3px solid #818cf8; outline-offset: 4px; }
 #projects article:hover { border-color: color-mix(in srgb, var(--color-brand) 40%, var(--color-line)); }
 #projects article img { background: linear-gradient(135deg, var(--color-brand-soft), var(--color-canvas)); }
+#home .glass { padding: .6rem; border-radius: 2.2rem; background: linear-gradient(145deg, color-mix(in srgb, var(--color-surface) 94%, transparent), color-mix(in srgb, var(--color-brand-soft) 58%, transparent)); }
+#home .glass > div { border-radius: 1.75rem; }
+#home .reveal:first-child .eyebrow { display: inline-flex; border: 1px solid var(--color-line); border-radius: 999px; padding: .4rem .75rem; background: var(--color-surface); letter-spacing: .1em; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; border-radius:.8rem; padding:.8rem 1.1rem; font-weight:700; transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease; } .button:hover { transform:translateY(-2px); } .button:focus-visible, a:focus-visible, button:focus-visible { outline:3px solid #818cf8; outline-offset:3px; }
 .button-primary { background:var(--color-brand); color:#fff; box-shadow:0 10px 24px #4f46e544; } .button-primary:hover { background:#4338ca; } .button-secondary { border:1px solid var(--color-line); color:var(--color-ink); background:var(--color-surface); }
 .reveal { opacity:0; transform:translateY(18px); transition: opacity .65s ease, transform .65s ease; } .reveal.is-visible { opacity:1; transform:none; }
@@ -24,6 +27,9 @@ html { scroll-behavior: smooth; } body { background: var(--color-canvas); color:
 #about header h2 { max-width: 17ch; }
 #about article { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
 #about article:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--color-brand) 35%, var(--color-line)); box-shadow: 0 12px 28px color-mix(in srgb, var(--color-brand) 10%, transparent); }
+#about .mt-12 > article:first-child { overflow: hidden; background-image: linear-gradient(90deg, color-mix(in srgb, var(--color-canvas) 94%, transparent), color-mix(in srgb, var(--color-canvas) 62%, transparent)), url('/images/tuscany-landscape.svg'); background-position: center; background-size: cover; }
+#about .mt-12 > article:first-child > p:last-child { display: none; }
+#about .mt-5.grid:empty { display: none; }
 #experience .bg-brand-soft { display: none; }
 #insights .grid:empty { display: block; margin-top: 2.5rem; border: 1px dashed var(--color-line); border-radius: 1.25rem; padding: 2.5rem 1.5rem; text-align: center; color: var(--color-muted); background: var(--color-canvas); }
 #insights .grid:empty::after { content: "No notes or articles are published at the moment. Please check back soon."; display: block; max-width: 34rem; margin-inline: auto; line-height: 1.7; }
