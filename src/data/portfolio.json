@@ -640,38 +640,38 @@
       "it": "Chi sono"
     },
     "title": {
-      "en": "A little more than a résumé.",
-      "it": "Tecnologia, curiosità e soluzioni concrete."
+      "en": "From ideas to useful, intelligent products.",
+      "it": "Dalle idee a prodotti intelligenti e utili."
     },
     "quote": {
       "en": "“Make it useful. Make it clear. Make it feel good.”",
       "it": "“Rendilo utile. Rendilo chiaro. Rendilo piacevole.”"
     },
     "text": {
-      "en": "I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I design and deliver Generative AI, Retrieval-Augmented Generation, multi-agent and distributed-backend solutions, connecting language models, enterprise tools, structured data and real-world workflows.",
-      "it": "Sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Progetto soluzioni AI e backend che collegano modelli linguistici, dati, strumenti aziendali e processi reali. Ho inoltre esperienza nello sviluppo frontend e mobile, maturata sia in autonomia sia lavorando su applicazioni iOS e Android in StartIT."
+      "en": "I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I turn complex needs into reliable AI, backend and full-stack products, connecting language models, data, enterprise tools and real-world workflows. I care about the entire path from architecture and integration to clear, usable experiences.",
+      "it": "Sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Trasformo esigenze complesse in prodotti AI, backend e full-stack affidabili, collegando modelli linguistici, dati, strumenti aziendali e processi reali. Mi interessa l'intero percorso: dall'architettura e dalle integrazioni fino a esperienze chiare e utili per chi le utilizza."
     },
     "highlights": [
       {
         "id": "ai-systems",
         "order": 1,
         "visible": true,
-        "title": { "en": "AI systems", "it": "Sistemi AI" },
-        "text": { "en": "From prototypes to reliable, useful systems: RAG, agents and process automation.", "it": "Dai prototipi a sistemi affidabili e utili: RAG, agenti e automazione dei processi." }
+        "title": { "en": "Intelligent products", "it": "Prodotti intelligenti" },
+        "text": { "en": "AI solutions that combine models, data, tools and real workflows.", "it": "Soluzioni AI che uniscono modelli, dati, strumenti e workflow reali." }
       },
       {
         "id": "engineering-range",
         "order": 2,
         "visible": true,
         "title": { "en": "End-to-end development", "it": "Sviluppo end-to-end" },
-        "text": { "en": "Backend services, web and mobile interfaces, computer vision and media processing.", "it": "Servizi backend, interfacce web e mobile, computer vision ed elaborazione di immagini e video." }
+        "text": { "en": "From backend services to web and mobile interfaces, with a solid computer-vision foundation.", "it": "Dai servizi backend alle interfacce web e mobile, con solide basi di computer vision." }
       },
       {
         "id": "collaboration",
         "order": 3,
         "visible": true,
         "title": { "en": "How I work", "it": "Come lavoro" },
-        "text": { "en": "I combine technical rigour, clear communication and collaboration with product and delivery teams.", "it": "Unisco rigore tecnico, comunicazione chiara e collaborazione con team di prodotto e delivery." }
+        "text": { "en": "Technical rigour, direct communication and a collaborative approach to delivery.", "it": "Rigore tecnico, comunicazione diretta e approccio collaborativo alla realizzazione." }
       }
     ],
     "locationLabel": {
@@ -683,16 +683,16 @@
       "it": "Focus attuale"
     },
     "focus": {
-      "en": "Building reliable, maintainable AI systems that create measurable value for users and organisations.",
-      "it": "Costruire sistemi AI affidabili e manutenibili che generino valore misurabile per utenti e organizzazioni."
+      "en": "Building reliable AI products that are maintainable, understandable and valuable for the people who use them.",
+      "it": "Realizzare prodotti AI affidabili, manutenibili, comprensibili e utili per le persone che li utilizzano."
     },
     "beyondWorkLabel": {
       "en": "Beyond work",
       "it": "Oltre il lavoro"
     },
     "interests": {
-      "en": "Music and sports enthusiast.",
-      "it": "Appassionato di musica, di sport."
+      "en": "Outside work, I build full-stack applications around my own ideas, follow technology and AI-product design closely, and keep learning through experiments. I also enjoy music and sport.",
+      "it": "Nel tempo libero sviluppo applicativi full-stack per trasformare le mie idee in progetti concreti, mi informo e studio l'evoluzione tecnologica e progettuale dell'AI e continuo a sperimentare. Coltivo anche la passione per la musica e lo sport."
     },
     "stats": [
       {
