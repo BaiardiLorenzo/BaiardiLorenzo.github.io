@@ -56,6 +56,7 @@ const rights = (value: string) => value.replace('{year}', String(new Date().getF
     });
     let mudkipTaps = 0;
     const profileImage = document.querySelector<HTMLImageElement>('#home img[fetchpriority="high"]');
+    const profileFrame = profileImage?.parentElement;
     const originalProfileImage = profileImage?.src;
     const originalProfileAlt = profileImage?.alt;
     const mudkipSprite = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/258.png';
@@ -68,15 +69,16 @@ const rights = (value: string) => value.replace('{year}', String(new Date().getF
       profileImage.style.imageRendering = 'pixelated';
       profileImage.style.objectFit = 'contain';
       profileImage.style.padding = '1.5rem';
+      profileFrame?.classList.add('mudkip-encounter');
       mudkipCry.currentTime = 0;
       mudkipCry.play().catch(() => undefined);
-      window.setTimeout(() => { if (originalProfileImage) { profileImage.src = originalProfileImage; profileImage.alt = originalProfileAlt ?? ''; profileImage.style.imageRendering = ''; profileImage.style.objectFit = ''; profileImage.style.padding = ''; } }, 5000);
+      window.setTimeout(() => { if (originalProfileImage) { profileImage.src = originalProfileImage; profileImage.alt = originalProfileAlt ?? ''; profileImage.style.imageRendering = ''; profileImage.style.objectFit = ''; profileImage.style.padding = ''; profileFrame?.classList.remove('mudkip-encounter'); } }, 5000);
     };
     profileImage?.addEventListener('click', () => {
       if (document.documentElement.lang !== 'it') return;
       mudkipTaps += 1;
       window.setTimeout(() => { mudkipTaps = 0; }, 900);
-      if (mudkipTaps < 3) return;
+      if (mudkipTaps < 5) return;
       mudkipTaps = 0;
       activateMudkip();
     });
