@@ -602,8 +602,8 @@
       "it": "Progetto sistemi intelligenti che trasformano <span class=\"text-brand\">la complessità in soluzioni concrete</span>."
     },
     "description": {
-      "en": "AI Software Engineer and Backend Developer specialising in Generative AI, RAG systems, multi-agent architectures and scalable service integrations.",
-      "it": "AI Software Engineer e Backend Developer specializzato in AI generativa, sistemi RAG, architetture multi-agente e integrazione di servizi scalabili."
+      "en": "AI Software Engineer and Full-Stack Developer specialising in Generative AI, and RAG systems.",
+      "it": "AI Software Engineer e Full-Stack Developer specializzato in AI generativa, e sistemi RAG."
     },
     "primaryCta": {
       "en": "View my projects",
@@ -614,20 +614,20 @@
       "it": "Contattami"
     },
     "availability": {
-      "en": "Available for ideas",
-      "it": "Disponibile per nuove idee"
+      "en": "",
+      "it": ""
     },
     "visualKicker": {
-      "en": "AI & Backend",
-      "it": "AI e backend"
+      "en": "",
+      "it": ""
     },
     "visualTitle": {
-      "en": "AI Software Engineer",
-      "it": "AI Software Engineer"
+      "en": "",
+      "it": ""
     },
     "visualDescription": {
-      "en": "From AI architecture to dependable backend delivery.",
-      "it": "Dall'architettura AI a servizi backend affidabili."
+      "en": "",
+      "it": ""
     },
     "scrollPrompt": {
       "en": "Scroll to explore ↓",
@@ -641,7 +641,7 @@
     },
     "title": {
       "en": "A little more than a résumé.",
-      "it": "Molto più di un curriculum."
+      "it": "Tecnologia, curiosità e soluzioni concrete."
     },
     "quote": {
       "en": "“Make it useful. Make it clear. Make it feel good.”",
@@ -649,7 +649,7 @@
     },
     "text": {
       "en": "I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I design and deliver Generative AI, Retrieval-Augmented Generation, multi-agent and distributed-backend solutions, connecting language models, enterprise tools, structured data and real-world workflows.",
-      "it": "Sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Progetto e sviluppo soluzioni basate su Generative AI, Retrieval-Augmented Generation, sistemi multi-agente e architetture backend distribuite, collegando modelli linguistici, strumenti aziendali, dati strutturati e processi reali."
+      "it": "Sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Progetto soluzioni AI e backend che collegano modelli linguistici, dati, strumenti aziendali e processi reali. Ho inoltre esperienza nello sviluppo frontend e mobile, maturata sia in autonomia sia lavorando su applicazioni iOS e Android in StartIT."
     },
     "highlights": [
       {
@@ -657,21 +657,21 @@
         "order": 1,
         "visible": true,
         "title": { "en": "AI systems", "it": "Sistemi AI" },
-        "text": { "en": "Orchestrator agents, LLM integration, RAG pipeline optimisation and business-process automation.", "it": "Agenti orchestratori, integrazione di LLM, ottimizzazione di pipeline RAG e automazione di processi aziendali." }
+        "text": { "en": "From prototypes to reliable, useful systems: RAG, agents and process automation.", "it": "Dai prototipi a sistemi affidabili e utili: RAG, agenti e automazione dei processi." }
       },
       {
         "id": "engineering-range",
         "order": 2,
         "visible": true,
-        "title": { "en": "Engineering range", "it": "Competenze trasversali" },
-        "text": { "en": "Experience spanning backend services, mobile development, computer vision, image and video processing.", "it": "Esperienza che include servizi backend, sviluppo mobile, computer vision ed elaborazione di immagini e video." }
+        "title": { "en": "End-to-end development", "it": "Sviluppo end-to-end" },
+        "text": { "en": "Backend services, web and mobile interfaces, computer vision and media processing.", "it": "Servizi backend, interfacce web e mobile, computer vision ed elaborazione di immagini e video." }
       },
       {
         "id": "collaboration",
         "order": 3,
         "visible": true,
         "title": { "en": "How I work", "it": "Come lavoro" },
-        "text": { "en": "Collaboration, knowledge sharing and the combination of technical rigour with creativity.", "it": "Collaborazione, condivisione delle conoscenze e unione tra rigore tecnico e creatività." }
+        "text": { "en": "I combine technical rigour, clear communication and collaboration with product and delivery teams.", "it": "Unisco rigore tecnico, comunicazione chiara e collaborazione con team di prodotto e delivery." }
       }
     ],
     "locationLabel": {
@@ -691,8 +691,8 @@
       "it": "Oltre il lavoro"
     },
     "interests": {
-      "en": "Beyond engineering, music and creativity are an important source of balance and inspiration in both technology and life.",
-      "it": "Oltre all'ingegneria, musica e creatività sono una fonte importante di equilibrio e ispirazione, nella tecnologia come nella vita."
+      "en": "Music and sports enthusiast.",
+      "it": "Appassionato di musica, di sport."
     },
     "stats": [
       {
@@ -750,7 +750,7 @@
             { "en": "Designed systems to detect opening and closing sequences and identify suitable advertising-placement points.", "it": "Progettati sistemi per rilevare sequenze di introduzione e conclusione e individuare punti adatti al posizionamento pubblicitario." },
             { "en": "Integrated and optimised commercial LLM APIs, defining application logic across cognitive services, backend components and external APIs.", "it": "Integrate e ottimizzate API LLM commerciali, definendo la logica tra servizi cognitivi, componenti backend e API esterne." }
           ],
-          "tags": ["Video Processing", "LLMs", "Backend Architecture"]
+          "tags": ["Video Processing", "LLMs"]
         },
         {
           "id": "osservatorio",
@@ -762,14 +762,14 @@
             { "en": "Analysed the existing architecture and identified improvement opportunities.", "it": "Analizzata l'architettura esistente e identificate le aree di miglioramento." },
             { "en": "Defined the end-to-end target architecture, application components, integrations, dependencies and information flows.", "it": "Definita l'architettura end-to-end, i componenti applicativi, le integrazioni, le dipendenze e i flussi informativi." }
           ],
-          "tags": ["System Design", "Distributed systems", "APIs"]
+          "tags": ["System Design", "APIs"]
         },
         {
           "id": "orchestrator-agent",
           "order": 3,
           "visible": true,
-          "title": { "en": "Wolters Kluwer Italia — Orchestrator Agent", "it": "Wolters Kluwer Italia — Orchestrator Agent" },
-          "description": { "en": "Designed with FAB (Foundation And Beyond) to automate functional-documentation generation for La Mia Biblioteca / LRSIT.", "it": "Progettato con FAB (Foundation And Beyond) per automatizzare la generazione della documentazione funzionale per La Mia Biblioteca / LRSIT." },
+          "title": { "en": "Orchestrator Agent - Wolters Kluwer Italia", "it": "Orchestrator Agent - Wolters Kluwer Italia" },
+          "description": { "en": "Designed with FAB (Foundation And Beyond) to automate functional-documentation generation for La Mia Biblioteca.", "it": "Progettato con FAB (Foundation And Beyond) per automatizzare la generazione della documentazione funzionale per La Mia Biblioteca." },
           "contributions": [
             { "en": "Generated user stories from Figma mockups and Jira tickets.", "it": "Generate User Story a partire da mockup Figma e ticket Jira." },
             { "en": "Coordinated specialised AI agents through retrieval pipelines and task delegation.", "it": "Coordinati agenti AI specializzati attraverso pipeline di retrieval e delega delle attività." },
@@ -781,7 +781,7 @@
           "id": "figma-crawler",
           "order": 4,
           "visible": true,
-          "title": { "en": "Wolters Kluwer Italia — Figma Crawler", "it": "Wolters Kluwer Italia — Figma Crawler" },
+          "title": { "en": "Figma Crawler - Wolters Kluwer Italia", "it": "Figma Crawler - Wolters Kluwer Italia" },
           "description": { "en": "Crawler developed within the FAB infrastructure to provide structured design context to AI agents.", "it": "Crawler sviluppato nell'infrastruttura FAB per fornire contesto di design strutturato agli agenti AI." },
           "contributions": [
             { "en": "Extracted Figma content and serialised metadata automatically.", "it": "Estratti automaticamente i contenuti Figma e serializzati i metadati." },
@@ -793,7 +793,7 @@
           "id": "one-ai-libra",
           "order": 5,
           "visible": true,
-          "title": { "en": "Wolters Kluwer Italia — One AI / Libra", "it": "Wolters Kluwer Italia — One AI / Libra" },
+          "title": { "en": "One AI / Libra - Wolters Kluwer Italia", "it": "One AI / Libra - Wolters Kluwer Italia" },
           "description": { "en": "Development, maintenance and optimisation of Wolters Kluwer AI systems.", "it": "Sviluppo, manutenzione e ottimizzazione dei sistemi AI di Wolters Kluwer." },
           "contributions": [
             { "en": "Diagnosed RAG-agent issues and optimised retrieval pipelines, prompts and output quality.", "it": "Analizzati e risolti bug degli agenti RAG; ottimizzate pipeline di retrieval, prompt e qualità degli output." },
@@ -805,25 +805,13 @@
           "id": "jira-mcp-automation",
           "order": 6,
           "visible": true,
-          "title": { "en": "Wolters Kluwer Italia — Jira Automation & MCP", "it": "Wolters Kluwer Italia — Automazione Jira e MCP" },
+          "title": { "en": "Jira Automation & MCP - Wolters Kluwer Italia", "it": "Automazione Jira e MCP - Wolters Kluwer Italia" },
           "description": { "en": "Intelligent automation for development processes.", "it": "Sistemi intelligenti per l'automazione dei processi di sviluppo." },
           "contributions": [
             { "en": "Clustered Jira tickets automatically through Model Context Protocol integrations and AI agents.", "it": "Raggruppati automaticamente ticket Jira tramite integrazioni Model Context Protocol e agenti AI." },
             { "en": "Improved system prompts from analysed tickets and evaluated RAG-agent performance with dedicated metrics.", "it": "Migliorati i system prompt in funzione dei ticket analizzati e valutate le performance degli agenti RAG con metriche dedicate." }
           ],
           "tags": ["MCP", "Jira", "AI Evaluation", "Prompt Engineering"]
-        },
-        {
-          "id": "wolters-kluwer-collaboration",
-          "order": 7,
-          "visible": true,
-          "title": { "en": "Wolters Kluwer Italia — Cross-functional Responsibilities", "it": "Wolters Kluwer Italia — Attività trasversali" },
-          "description": { "en": "Technical ownership and client collaboration across the delivery lifecycle.", "it": "Responsabilità tecnica e collaborazione con il cliente lungo l'intero ciclo di realizzazione." },
-          "contributions": [
-            { "en": "Managed the direct relationship with Wolters Kluwer Italia and gathered functional and technical requirements.", "it": "Gestito il rapporto diretto con Wolters Kluwer Italia e raccolto requisiti funzionali e tecnici." },
-            { "en": "Supported analysis, design and validation, taking technical responsibility for the delivered solutions.", "it": "Supportate analisi, progettazione e validazione, assumendo la responsabilità tecnica delle soluzioni realizzate." }
-          ],
-          "tags": ["System Design", "Backend Architecture", "Jira"]
         }
       ],
       "groups": [
@@ -831,8 +819,8 @@
           "id": "ntt-data-cognitive-services",
           "order": 1,
           "visible": true,
-          "organization": { "en": "NTT DATA — AI Cognitive Services", "it": "NTT DATA — AI Cognitive Services" },
-          "role": { "en": "AI Software Engineer / Backend Developer", "it": "AI Software Engineer / Backend Developer" },
+          "organization": { "en": "Video & Media Solution", "it": "Video & Media Solution" },
+          "role": { "en": "AI Software Engineer", "it": "AI Software Engineer" },
           "items": [
             {
               "id": "hyper",
@@ -861,19 +849,19 @@
           "id": "wolters-kluwer-italia",
           "order": 2,
           "visible": true,
-          "organization": { "en": "NTT DATA — Client: Wolters Kluwer Italia", "it": "NTT DATA — Cliente: Wolters Kluwer Italia" },
+          "organization": { "en": "Wolters Kluwer Italia", "it": "Wolters Kluwer Italia" },
           "role": { "en": "AI Software Engineer", "it": "AI Software Engineer" },
           "items": [
             {
               "id": "orchestrator-agent",
-              "title": { "en": "Orchestrator Agent — La Mia Biblioteca / LRSIT", "it": "Orchestrator Agent — La Mia Biblioteca / LRSIT" },
+              "title": { "en": "Orchestrator Agent — La Mia Biblioteca", "it": "Orchestrator Agent — La Mia Biblioteca" },
               "description": { "en": "An orchestrator agent built with the proprietary FAB (Foundation And Beyond) framework to automate functional-documentation generation.", "it": "Agente orchestratore realizzato con il framework proprietario FAB (Foundation And Beyond) per automatizzare la generazione della documentazione funzionale." },
               "contributions": [
                 { "en": "Generated user stories from Figma mockups and Jira tickets.", "it": "Generate User Story a partire da mockup Figma e ticket Jira." },
                 { "en": "Coordinated specialised AI agents through FAB, with retrieval pipelines and task delegation.", "it": "Coordinati agenti AI specializzati tramite FAB, con pipeline di retrieval e delega delle attività." },
                 { "en": "Integrated Figma, Jira and AI services into a single workflow.", "it": "Integrati Figma, Jira e servizi AI in un unico workflow." }
               ],
-              "tags": ["Multi-Agent Systems", "RAG", "FAB (Foundation And Beyond)", "Figma", "Jira"]
+              "tags": ["Multi-Agent Systems", "RAG", "Figma", "Jira"]
             },
             {
               "id": "figma-crawler",
@@ -893,7 +881,7 @@
                 { "en": "Diagnosed RAG-agent issues and optimised retrieval pipelines, prompts and output quality.", "it": "Analizzati e risolti bug degli agenti RAG; ottimizzate pipeline di retrieval, prompt e qualità degli output." },
                 { "en": "Managed Libra, Libra Connector and Evaluator modules, including One AI vertical modules (Carbons).", "it": "Gestiti i moduli Libra, Libra Connector ed Evaluator, inclusi i moduli verticali (Carbons) della piattaforma One AI." }
               ],
-              "tags": ["RAG", "Prompt Engineering", "Retrieval Optimization", "AI Evaluation", "Libra"]
+              "tags": ["RAG", "Prompt Engineering", "Retrieval Optimization", "AI Evaluation"]
             },
             {
               "id": "jira-mcp-automation",
@@ -928,8 +916,8 @@
       "it": "Strumenti per trasformare idee in sistemi."
     },
     "description": {
-      "en": "From AI design and evaluation to backend implementation, platforms and delivery tooling.",
-      "it": "Un insieme pratico e in evoluzione di strumenti per progettare e realizzare sistemi intelligenti."
+      "en": "A focused set of technologies used across AI, backend, frontend and mobile development.",
+      "it": "Un insieme essenziale di tecnologie usate nello sviluppo AI, backend, frontend e mobile."
     },
     "groups": [
       {
@@ -940,9 +928,7 @@
         "description": { "en": "Designing, integrating and evaluating LLM-powered systems.", "it": "Progettazione, integrazione e valutazione di sistemi basati su LLM." },
         "items": [
           { "name": "Generative AI", "icon": "AI" }, { "name": "RAG", "icon": "RAG" }, { "name": "Multi-Agent Systems", "icon": "MAS" },
-          { "name": "Agentic Design Patterns", "icon": "ADP" }, { "name": "Prompt Engineering", "icon": "PE" }, { "name": "Context Engineering", "icon": "CE" },
-          { "name": "MCP", "icon": "MCP" }, { "name": "AI Evaluation", "icon": "EV" }, { "name": "Retrieval Optimization", "icon": "RO" },
-          { "name": "LLM Integration", "icon": "LLM" }, { "name": "OpenAI GPT APIs", "icon": "GPT" }
+          { "name": "Prompt Engineering", "icon": "PE" }, { "name": "MCP", "icon": "MCP" }, { "name": "AI Evaluation", "icon": "EV" }
         ]
       },
       {
@@ -952,9 +938,8 @@
         "name": { "en": "Backend Development", "it": "Sviluppo backend" },
         "description": { "en": "APIs, services and integrations for production systems.", "it": "API, servizi e integrazioni per sistemi in produzione." },
         "items": [
-          { "name": "Node.js (Advanced)", "icon": "NJS" }, { "name": "TypeScript", "icon": "TS" }, { "name": "JavaScript", "icon": "JS" },
-          { "name": "Python", "icon": "PY" }, { "name": "REST APIs", "icon": "API" }, { "name": "GraphQL", "icon": "GQL" },
-          { "name": "gRPC", "icon": "RPC" }, { "name": "Microservices", "icon": "MS" }
+          { "name": "Node.js", "icon": "NJS" }, { "name": "TypeScript", "icon": "TS" }, { "name": "JavaScript", "icon": "JS" },
+          { "name": "Python", "icon": "PY" }, { "name": "REST APIs", "icon": "API" }, { "name": "Microservices", "icon": "MS" }
         ]
       },
       {
@@ -964,19 +949,17 @@
         "name": { "en": "Infrastructure", "it": "Infrastruttura" },
         "description": { "en": "Containerised, distributed and event-driven environments.", "it": "Ambienti containerizzati, distribuiti e guidati dagli eventi." },
         "items": [
-          { "name": "Docker", "icon": "DK" }, { "name": "Kubernetes", "icon": "K8" }, { "name": "Apache Kafka", "icon": "KF" },
-          { "name": "Containerization", "icon": "CT" }, { "name": "Distributed Systems", "icon": "DS" }
+          { "name": "Docker", "icon": "DK" }, { "name": "Kubernetes", "icon": "K8" }, { "name": "Apache Kafka", "icon": "KF" }, { "name": "Distributed Systems", "icon": "DS" }
         ]
       },
       {
-        "id": "ai-frameworks-platforms",
+        "id": "frontend-mobile",
         "order": 4,
         "visible": true,
-        "name": { "en": "AI Frameworks & Platforms", "it": "Framework e piattaforme AI" },
-        "description": { "en": "Enterprise platforms and frameworks for AI agents.", "it": "Piattaforme e framework enterprise per agenti AI." },
+        "name": { "en": "Frontend & Mobile", "it": "Frontend e mobile" },
+        "description": { "en": "Web, cross-platform and native mobile development.", "it": "Sviluppo web, multipiattaforma e mobile nativo." },
         "items": [
-          { "name": "FAB (Foundation And Beyond)", "icon": "FAB" }, { "name": "Libra", "icon": "LIB" }, { "name": "Libra Connector", "icon": "LC" },
-          { "name": "Evaluator", "icon": "EV" }, { "name": "One AI", "icon": "AI" }
+          { "name": "Flutter", "icon": "FL" }, { "name": "Android", "icon": "AN" }, { "name": "Kotlin", "icon": "KT" }, { "name": "Swift", "icon": "SW" }, { "name": "Java", "icon": "JV" }
         ]
       },
       {
@@ -986,8 +969,7 @@
         "name": { "en": "Development Tools", "it": "Strumenti di sviluppo" },
         "description": { "en": "Tools for collaboration, delivery and AI-assisted development.", "it": "Strumenti per collaborazione, delivery e sviluppo assistito dall'AI." },
         "items": [
-          { "name": "Git", "icon": "GIT" }, { "name": "GitHub", "icon": "GH" }, { "name": "Jira", "icon": "JR" }, { "name": "Figma", "icon": "FG" },
-          { "name": "OpenAI Codex", "icon": "CX" }, { "name": "GitHub Copilot", "icon": "CP" }, { "name": "Claude", "icon": "CL" }
+          { "name": "Git", "icon": "GIT" }, { "name": "GitHub", "icon": "GH" }, { "name": "Jira", "icon": "JR" }, { "name": "Figma", "icon": "FG" }
         ]
       }
     ],
@@ -1299,14 +1281,22 @@
       "en": "Professional experience & education.",
       "it": "Esperienza professionale e formazione."
     },
+    "professionalTitle": {
+      "en": "Professional experience",
+      "it": "Esperienza professionale"
+    },
+    "educationTitle": {
+      "en": "Education",
+      "it": "Formazione"
+    },
     "items": [
       {
         "id": "ntt-data",
         "order": 1,
         "visible": true,
         "title": {
-          "en": "AI Software Engineer / Backend Developer",
-          "it": "AI Software Engineer / Backend Developer"
+          "en": "AI Software Engineer",
+          "it": "AI Software Engineer"
         },
         "organization": {
           "en": "NTT DATA",
@@ -1357,20 +1347,20 @@
           "it": "Prato, Italia"
         },
         "description": {
-          "en": "Developed native iOS and Android applications, including Bluetooth communication, GPS features and Google service integrations.",
-          "it": "Sviluppate applicazioni native iOS e Android, comprese comunicazione Bluetooth, funzionalità GPS e integrazioni con servizi Google."
+          "en": "Developed and implemented new features for Fleet2Track and Track4People, native iOS and Android applications with Bluetooth, GPS and Google service integrations.",
+          "it": "Sviluppo e implementazione di nuove funzionalità per le applicazioni native iOS e Android Fleet2Track e Track4People, incluse comunicazioni Bluetooth, funzionalità GPS e integrazioni con servizi Google."
         },
         "achievements": [
           {
-            "en": "Built features with Swift, Java and Kotlin",
-            "it": "Realizzate funzionalità con Swift, Java e Kotlin"
+            "en": "Developed new features for Fleet2Track, an application for managing transport vehicles",
+            "it": "Sviluppate nuove funzionalità per Fleet2Track, applicazione per la gestione di mezzi di trasporto"
           },
           {
-            "en": "Performed debugging, functional testing and UI-flow improvements",
-            "it": "Eseguiti debugging, test funzionali e miglioramenti dei flussi UI"
+            "en": "Developed new features for Track4People, which tracks people and animals through Bluetooth sensors and GPS",
+            "it": "Sviluppate nuove funzionalità per Track4People, applicazione per il tracciamento di persone e animali tramite sensori Bluetooth e GPS"
           }
         ],
-        "tags": ["Swift", "Kotlin", "Java", "Mobile"]
+        "tags": ["Swift", "Kotlin", "Java", "Android", "iOS", "Bluetooth", "GPS"]
       },
       {
         "id": "startit-intern",
@@ -1559,7 +1549,7 @@
       {
         "id": "libra-ticket-intelligence",
         "order": 1,
-        "visible": true,
+        "visible": false,
         "title": {
           "en": "Libra Ticket Intelligence",
           "it": "Libra Ticket Intelligence"
@@ -1584,7 +1574,7 @@
       {
         "id": "orchestrator-agent",
         "order": 2,
-        "visible": true,
+        "visible": false,
         "title": {
           "en": "Multi-Agent User Story Generator",
           "it": "Generatore multi-agente di user story"
@@ -1609,7 +1599,7 @@
       {
         "id": "figma-crawler",
         "order": 3,
-        "visible": true,
+        "visible": false,
         "title": {
           "en": "Figma Knowledge Crawler",
           "it": "Figma Knowledge Crawler"
@@ -1634,7 +1624,7 @@
       {
         "id": "prompt-improvement",
         "order": 4,
-        "visible": true,
+        "visible": false,
         "title": {
           "en": "AI Prompt Improvement Pipeline",
           "it": "Pipeline di miglioramento dei prompt AI"
@@ -1810,20 +1800,20 @@
   },
   "insights": {
     "kicker": {
-      "en": "Writing & notes",
-      "it": "Articoli e note"
+      "en": "Personal blog",
+      "it": "Bacheca personale"
     },
     "title": {
-      "en": "Ideas worth documenting.",
-      "it": "Idee che vale la pena raccontare."
+      "en": "Ideas, notes and things I am exploring.",
+      "it": "Idee, appunti e cose che sto esplorando."
     },
     "description": {
-      "en": "A space for practical notes on AI engineering, research and systems design. These drafts are ready to become full posts when you are.",
-      "it": "Uno spazio per appunti pratici su AI engineering, ricerca e progettazione di sistemi. Queste bozze potranno diventare articoli completi quando vuoi."
+      "en": "A personal board for short thoughts and longer articles about technology, projects and research. These sample posts can be replaced with new entries at any time.",
+      "it": "Una bacheca personale per pensieri brevi e articoli più approfonditi su tecnologia, progetti e ricerca. Questi post di esempio possono essere sostituiti o ampliati in qualsiasi momento."
     },
-    "draftLabel": {
-      "en": "Draft — coming soon",
-      "it": "Bozza — prossimamente"
+    "readLabel": {
+      "en": "Read post",
+      "it": "Leggi il post"
     },
     "items": [
       {
@@ -1845,6 +1835,10 @@
         "excerpt": {
           "en": "Notes on retrieval quality, grounded answers and evaluation in real-world AI applications.",
           "it": "Appunti su qualità del retrieval, risposte grounded e valutazione in applicazioni AI reali."
+        },
+        "content": {
+          "en": "Test post. I want to collect practical notes on how retrieval quality, answer grounding and evaluation influence the usefulness of a RAG system. This page is ready to become a longer article.",
+          "it": "Post di prova. Voglio raccogliere appunti pratici su come qualità del retrieval, grounding delle risposte e valutazione influenzino l'utilità di un sistema RAG. Questa pagina è pronta per diventare un articolo più approfondito."
         }
       },
       {
@@ -1866,6 +1860,10 @@
         "excerpt": {
           "en": "How structured context, tool routing and human review shape useful AI-agent experiences.",
           "it": "Come contesto strutturato, tool routing e revisione umana rendono utili le esperienze con agenti AI."
+        },
+        "content": {
+          "en": "Test post. Agentic workflows are most useful when responsibilities, tools and handoffs are explicit. I will use this space to share patterns and lessons from real projects.",
+          "it": "Post di prova. I workflow agentici sono più utili quando responsabilità, strumenti e passaggi di consegna sono espliciti. Userò questo spazio per condividere pattern e lezioni apprese da progetti reali."
         }
       },
       {
@@ -1887,6 +1885,10 @@
         "excerpt": {
           "en": "A research perspective on compression, perceptual metrics and real-time enhancement.",
           "it": "Una prospettiva di ricerca su compressione, metriche percettive e miglioramento in tempo reale."
+        },
+        "content": {
+          "en": "Test post. Video enhancement is a trade-off between visual quality, latency and computational cost. Here I will document experiments, metrics and ideas from my research.",
+          "it": "Post di prova. Il miglioramento video è un compromesso fra qualità visiva, latenza e costo computazionale. Qui documenterò esperimenti, metriche e idee nate dalla mia ricerca."
         }
       }
     ]

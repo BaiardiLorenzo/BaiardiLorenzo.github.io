@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import portfolio from '../../data/portfolio.json';
+
+export function getStaticPaths() {
+  return portfolio.insights.items
+    .filter((post) => post.visible)
+    .map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+---
+<BaseLayout>
+  <main id="main-content" class="min-h-screen">
+    <article class="container max-w-3xl py-16 sm:py-24">
+      <a class="text-sm font-bold text-brand hover:underline" href="/#insights" data-i18n data-en="← Back to the board" data-it="← Torna alla bacheca">← Back to the board</a>
+      <div class="mt-10 flex items-center gap-3"><span class="tag" data-i18n data-en={post.category.en} data-it={post.category.it}>{post.category.en}</span><span class="text-sm text-muted" data-i18n data-en={post.published.en} data-it={post.published.it}>{post.published.en}</span></div>
+      <h1 class="mt-5 text-4xl font-black tracking-tight sm:text-5xl" data-i18n data-en={post.title.en} data-it={post.title.it}>{post.title.en}</h1>
+      <p class="mt-8 text-lg leading-8 text-muted" data-i18n data-en={post.content.en} data-it={post.content.it}>{post.content.en}</p>
+    </article>
+  </main>
+  <script>
+    const locale = localStorage.getItem('language') === 'it' ? 'it' : 'en';
+    document.documentElement.lang = locale;
+    document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((node) => {
+      node.innerHTML = node.getAttribute(`data-${locale}`) ?? '';
+    });
+  </script>
+</BaseLayout>
