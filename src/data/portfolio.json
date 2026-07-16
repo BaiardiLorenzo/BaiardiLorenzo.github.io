@@ -843,7 +843,11 @@
               ],
               "tags": ["System Design", "Backend Architecture", "Distributed Systems"]
             }
-          ]
+          ],
+          "collaboration": {
+            "title": { "en": "", "it": "" },
+            "items": [{ "en": "", "it": "" }]
+          }
         },
         {
           "id": "wolters-kluwer-italia",
@@ -895,12 +899,8 @@
             }
           ],
           "collaboration": {
-            "title": { "en": "Cross-functional responsibilities", "it": "Attività trasversali" },
-            "items": [
-              { "en": "Direct relationship management with Wolters Kluwer Italia.", "it": "Gestione diretta del rapporto con il cliente Wolters Kluwer Italia." },
-              { "en": "Functional and technical requirements gathering.", "it": "Raccolta requisiti funzionali e tecnici." },
-              { "en": "Technical ownership, analysis, design and validation support.", "it": "Responsabilità tecnica delle soluzioni e supporto ad analisi, progettazione e validazione." }
-            ]
+            "title": { "en": "", "it": "" },
+            "items": [{ "en": "", "it": "" }]
           }
         }
       ]
@@ -916,39 +916,42 @@
       "it": "Strumenti per trasformare idee in sistemi."
     },
     "description": {
-      "en": "A focused set of technologies used across AI, backend, frontend and mobile development.",
-      "it": "Un insieme essenziale di tecnologie usate nello sviluppo AI, backend, frontend e mobile."
+      "en": "A clear, practical toolkit spanning AI, product development and systems engineering.",
+      "it": "Un insieme chiaro e pratico di competenze tra AI, sviluppo prodotto e ingegneria dei sistemi."
     },
     "groups": [
       {
         "id": "artificial-intelligence",
         "order": 1,
         "visible": true,
-        "name": { "en": "Artificial Intelligence", "it": "Intelligenza artificiale" },
-        "description": { "en": "Designing, integrating and evaluating LLM-powered systems.", "it": "Progettazione, integrazione e valutazione di sistemi basati su LLM." },
+        "name": { "en": "AI & Machine Learning", "it": "AI e machine learning" },
+        "description": { "en": "Generative models, language-model applications and quality evaluation.", "it": "Modelli generativi, applicazioni basate su LLM e valutazione della qualità." },
         "items": [
-          { "name": "Generative AI", "icon": "AI" }, { "name": "RAG", "icon": "RAG" }, { "name": "Multi-Agent Systems", "icon": "MAS" },
-          { "name": "Prompt Engineering", "icon": "PE" }, { "name": "MCP", "icon": "MCP" }, { "name": "AI Evaluation", "icon": "EV" }
+          { "name": "LLMs", "icon": "LLM" }, { "name": "RAG", "icon": "RAG" }, { "name": "LangChain", "icon": "LC" },
+          { "name": "GANs", "icon": "GAN" }, { "name": "Diffusion Models", "icon": "DM" }, { "name": "Variational Autoencoders", "icon": "VAE" },
+          { "name": "Prompt Engineering", "icon": "PE" }, { "name": "AI Evaluation Metrics", "icon": "EV" }
         ]
       },
       {
         "id": "backend-development",
         "order": 2,
         "visible": true,
-        "name": { "en": "Backend Development", "it": "Sviluppo backend" },
-        "description": { "en": "APIs, services and integrations for production systems.", "it": "API, servizi e integrazioni per sistemi in produzione." },
+        "name": { "en": "Backend & APIs", "it": "Backend e API" },
+        "description": { "en": "Services, integrations and APIs for production applications.", "it": "Servizi, integrazioni e API per applicazioni in produzione." },
         "items": [
           { "name": "Node.js", "icon": "NJS" }, { "name": "TypeScript", "icon": "TS" }, { "name": "JavaScript", "icon": "JS" },
-          { "name": "Python", "icon": "PY" }, { "name": "REST APIs", "icon": "API" }, { "name": "Microservices", "icon": "MS" }
+          { "name": "Python", "icon": "PY" }, { "name": "Java", "icon": "JV" }, { "name": "PHP", "icon": "PHP" },
+          { "name": "REST APIs", "icon": "API" }, { "name": "GraphQL", "icon": "GQL" }, { "name": "gRPC", "icon": "RPC" }, { "name": "Microservices", "icon": "MS" }
         ]
       },
       {
-        "id": "infrastructure",
+        "id": "systems-infrastructure",
         "order": 3,
         "visible": true,
-        "name": { "en": "Infrastructure", "it": "Infrastruttura" },
-        "description": { "en": "Containerised, distributed and event-driven environments.", "it": "Ambienti containerizzati, distribuiti e guidati dagli eventi." },
+        "name": { "en": "Systems & Infrastructure", "it": "Sistemi e infrastruttura" },
+        "description": { "en": "Performance-oriented programming, distributed systems and deployment tooling.", "it": "Programmazione orientata alle prestazioni, sistemi distribuiti e strumenti di deployment." },
         "items": [
+          { "name": "C/C++", "icon": "C++" }, { "name": "CUDA", "icon": "CUDA" }, { "name": "Go", "icon": "GO" }, { "name": "Assembly", "icon": "ASM" },
           { "name": "Docker", "icon": "DK" }, { "name": "Kubernetes", "icon": "K8" }, { "name": "Apache Kafka", "icon": "KF" }, { "name": "Distributed Systems", "icon": "DS" }
         ]
       },
@@ -957,9 +960,9 @@
         "order": 4,
         "visible": true,
         "name": { "en": "Frontend & Mobile", "it": "Frontend e mobile" },
-        "description": { "en": "Web, cross-platform and native mobile development.", "it": "Sviluppo web, multipiattaforma e mobile nativo." },
+        "description": { "en": "Web interfaces, cross-platform and native mobile development.", "it": "Interfacce web, sviluppo multipiattaforma e mobile nativo." },
         "items": [
-          { "name": "Flutter", "icon": "FL" }, { "name": "Android", "icon": "AN" }, { "name": "Kotlin", "icon": "KT" }, { "name": "Swift", "icon": "SW" }, { "name": "Java", "icon": "JV" }
+          { "name": "HTML", "icon": "HTML" }, { "name": "CSS", "icon": "CSS" }, { "name": "Flutter", "icon": "FL" }, { "name": "Android", "icon": "AN" }, { "name": "Kotlin", "icon": "KT" }, { "name": "Swift", "icon": "SW" }
         ]
       },
       {
