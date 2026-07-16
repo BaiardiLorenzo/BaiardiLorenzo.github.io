@@ -33,6 +33,7 @@ html { scroll-behavior: smooth; } body { background: var(--color-canvas); color:
 #about .mt-5.grid:empty { display: none; }
 #experience .bg-brand-soft { display: none; }
 #experience article > .mt-8 > section { border: 0; border-radius: 0; padding: 0; background: transparent; }
+#experience article > .mt-8 > section > div > p.mt-1 { display: none; }
 #experience article > .mt-8 > section + section { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-line); }
 #experience article > .mt-8 > section > .mt-5.grid { display: block; margin-top: 1rem; border-left: 2px solid color-mix(in srgb, var(--color-brand) 25%, var(--color-line)); padding-left: 1.25rem; }
 #experience article > .mt-8 > section > .mt-5.grid > article { border: 0; border-bottom: 1px solid var(--color-line); border-radius: 0; padding: 1.25rem 0; background: transparent; }

@@ -648,8 +648,8 @@
       "it": "“Rendilo utile. Rendilo chiaro. Rendilo piacevole.”"
     },
     "text": {
-      "en": "I’m Lorenzo Baiardi, an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. Technology and music have been part of my life since childhood, and I have always wanted to turn that curiosity into both a profession and a personal passion. Today I design and build AI, backend and full-stack products that bring together models, data, tools and real workflows—always with attention to clarity, reliability and the people using them.",
-      "it": "Sono Lorenzo Baiardi, AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Tecnologia e musica fanno parte della mia vita fin da piccolo: ho sempre voluto trasformare questa curiosità in un lavoro, senza perdere la passione che la rende stimolante. Oggi progetto e sviluppo prodotti AI, backend e full-stack che uniscono modelli, dati, strumenti e processi reali, con attenzione a chiarezza, affidabilità e alle persone che li utilizzano."
+      "en": "I’m Lorenzo Baiardi, born in 2000, an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. Technology has always been a part of my life since childhood, and I have always wanted to turn that curiosity into both a profession and a personal passion. Today I design and build AI, backend and full-stack products that bring together models, data, tools and real workflows—always with attention to clarity, reliability and the people using them.",
+      "it": "Sono Lorenzo Baiardi, nato nel 2000, AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. La tecnologia ha sempre fatto parte della mia vita fin da piccolo: ho sempre voluto trasformare questa curiosità in un lavoro, senza perdere la passione che la rende stimolante. Oggi progetto e sviluppo prodotti AI, backend e full-stack che uniscono modelli, dati, strumenti e processi reali, con attenzione a chiarezza, affidabilità e alle persone che li utilizzano."
     },
     "highlights": [
       {
@@ -691,8 +691,8 @@
       "it": "Oltre il lavoro"
     },
     "interests": {
-      "en": "Outside work, I build full-stack applications around my own ideas, follow technology and AI-product design closely, and keep learning through experiments. I also enjoy music and sport.",
-      "it": "Nel tempo libero sviluppo applicativi full-stack per trasformare le mie idee in progetti concreti, mi informo e studio l'evoluzione tecnologica e progettuale dell'AI e continuo a sperimentare. Coltivo anche la passione per la musica e lo sport."
+      "en": "Outside work, I build full-stack applications around my own ideas, follow technology and AI-product design closely, and keep learning through experiments. I enjoy video games, football and tennis, and I listen to music across many different genres.",
+      "it": "Nel tempo libero sviluppo applicativi full-stack per trasformare le mie idee in progetti concreti, mi informo e studio l'evoluzione tecnologica e progettuale dell'AI e continuo a sperimentare. Mi piacciono i videogiochi, il calcio e il tennis; nella musica amo spaziare tra generi diversi."
     },
     "stats": [
       {
@@ -820,7 +820,7 @@
           "order": 1,
           "visible": true,
           "organization": { "en": "Video & Media Solution", "it": "Video & Media Solution" },
-          "role": { "en": "AI Software Engineer", "it": "AI Software Engineer" },
+          "role": { "en": "", "it": "" },
           "items": [
             {
               "id": "hyper",
@@ -831,7 +831,7 @@
                 { "en": "Implemented algorithms for advertising placement and integrated commercial LLM APIs, including OpenAI GPT.", "it": "Implementati algoritmi per il posizionamento pubblicitario e integrate API LLM commerciali, incluse OpenAI GPT." },
                 { "en": "Designed backend logic and integration flows between AI services.", "it": "Progettata la logica backend e i flussi di integrazione tra servizi AI." }
               ],
-              "tags": ["Video Processing", "OpenAI GPT APIs", "Backend Architecture"]
+              "tags": ["Video Processing", "APIs", "LLMs", "Backend Architecture"]
             },
             {
               "id": "osservatorio-2-0",
@@ -854,7 +854,7 @@
           "order": 2,
           "visible": true,
           "organization": { "en": "Wolters Kluwer Italia", "it": "Wolters Kluwer Italia" },
-          "role": { "en": "AI Software Engineer", "it": "AI Software Engineer" },
+          "role": { "en": "", "it": "" },
           "items": [
             {
               "id": "orchestrator-agent",
@@ -1327,8 +1327,8 @@
           "it": "Italia"
         },
         "description": {
-          "en": "Design and development of cognitive services, Generative AI solutions and backend architectures for NTT DATA and Wolters Kluwer Italia.",
-          "it": "Progettazione e sviluppo di servizi cognitivi, soluzioni di AI generativa e architetture backend per NTT DATA e Wolters Kluwer Italia."
+          "en": "Design and delivery of cognitive services, generative-AI solutions and backend architectures, from requirements analysis and system design to integration, validation and technical ownership.",
+          "it": "Progettazione e realizzazione di servizi cognitivi, soluzioni di AI generativa e architetture backend: dall'analisi dei requisiti e dal system design fino all'integrazione, alla validazione e alla responsabilità tecnica delle soluzioni."
         },
         "achievements": [
           {
