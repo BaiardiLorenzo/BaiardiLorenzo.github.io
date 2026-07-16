@@ -59,7 +59,7 @@ const rights = (value: string) => value.replace('{year}', String(new Date().getF
     const profileFrame = profileImage?.parentElement;
     const originalProfileImage = profileImage?.src;
     const originalProfileAlt = profileImage?.alt;
-    const mudkipSprite = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/258.png';
+    const mudkipSprite = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif';
     const mudkipCry = new Audio('https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/258.ogg');
     mudkipCry.volume = .45;
     const activateMudkip = () => {
@@ -72,7 +72,8 @@ const rights = (value: string) => value.replace('{year}', String(new Date().getF
       profileFrame?.classList.add('mudkip-encounter');
       mudkipCry.currentTime = 0;
       mudkipCry.play().catch(() => undefined);
-      window.setTimeout(() => { if (originalProfileImage) { profileImage.src = originalProfileImage; profileImage.alt = originalProfileAlt ?? ''; profileImage.style.imageRendering = ''; profileImage.style.objectFit = ''; profileImage.style.padding = ''; profileFrame?.classList.remove('mudkip-encounter'); } }, 5000);
+      window.setTimeout(() => profileFrame?.classList.add('mudkip-exit'), 4700);
+      window.setTimeout(() => { if (originalProfileImage) { profileImage.src = originalProfileImage; profileImage.alt = originalProfileAlt ?? ''; profileImage.style.imageRendering = ''; profileImage.style.objectFit = ''; profileImage.style.padding = ''; profileFrame?.classList.remove('mudkip-encounter', 'mudkip-exit'); profileFrame?.classList.add('profile-return'); window.setTimeout(() => profileFrame?.classList.remove('profile-return'), 360); } }, 5000);
     };
     profileImage?.addEventListener('click', () => {
       if (document.documentElement.lang !== 'it') return;
