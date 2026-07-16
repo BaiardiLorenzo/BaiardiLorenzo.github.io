@@ -648,8 +648,8 @@
       "it": "“Rendilo utile. Rendilo chiaro. Rendilo piacevole.”"
     },
     "text": {
-      "en": "I’m Lorenzo Baiardi. Born in 2000, I have been drawn to technology and music since childhood. Turning that curiosity into a career—and a lasting personal passion—has always been my goal. Today I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I turn complex needs into reliable AI, backend and full-stack products, connecting language models, data, enterprise tools and real-world workflows.",
-      "it": "Sono Lorenzo Baiardi. Classe 2000, sono appassionato di tecnologia e musica fin da piccolo. Ho sempre desiderato dedicarmi a questo mondo non solo come lavoro, ma anche come passione personale. Oggi sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Trasformo esigenze complesse in prodotti AI, backend e full-stack affidabili, collegando modelli linguistici, dati, strumenti aziendali e processi reali."
+      "en": "I’m Lorenzo Baiardi, an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. Technology and music have been part of my life since childhood, and I have always wanted to turn that curiosity into both a profession and a personal passion. Today I design and build AI, backend and full-stack products that bring together models, data, tools and real workflows—always with attention to clarity, reliability and the people using them.",
+      "it": "Sono Lorenzo Baiardi, AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Tecnologia e musica fanno parte della mia vita fin da piccolo: ho sempre voluto trasformare questa curiosità in un lavoro, senza perdere la passione che la rende stimolante. Oggi progetto e sviluppo prodotti AI, backend e full-stack che uniscono modelli, dati, strumenti e processi reali, con attenzione a chiarezza, affidabilità e alle persone che li utilizzano."
     },
     "highlights": [
       {
@@ -984,7 +984,8 @@
         "name": { "en": "Development Tools", "it": "Strumenti di sviluppo" },
         "description": { "en": "Tools for collaboration, delivery and AI-assisted development.", "it": "Strumenti per collaborazione, delivery e sviluppo assistito dall'AI." },
         "items": [
-          { "name": "Git", "icon": "GIT" }, { "name": "GitHub", "icon": "GH" }, { "name": "Jira", "icon": "JR" }, { "name": "Figma", "icon": "FG" }
+          { "name": "Git", "icon": "GIT" }, { "name": "GitHub", "icon": "GH" }, { "name": "Jira", "icon": "JR" }, { "name": "Linear", "icon": "LN" },
+          { "name": "ChatGPT Codex", "icon": "CX" }, { "name": "Claude Code", "icon": "CC" }, { "name": "GitHub Copilot", "icon": "CP" }
         ]
       }
     ],
