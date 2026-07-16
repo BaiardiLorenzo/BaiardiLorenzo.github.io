@@ -16,15 +16,16 @@ html { scroll-behavior: smooth; } body { background: var(--color-canvas); color:
 #projects article[role="link"]:focus-visible { outline: 3px solid #818cf8; outline-offset: 4px; }
 #projects article:hover { border-color: color-mix(in srgb, var(--color-brand) 40%, var(--color-line)); }
 #projects article img { background: linear-gradient(135deg, var(--color-brand-soft), var(--color-canvas)); }
-#home .glass { padding: .6rem; border-radius: 2.2rem; background: linear-gradient(145deg, color-mix(in srgb, var(--color-surface) 94%, transparent), color-mix(in srgb, var(--color-brand-soft) 58%, transparent)); }
-#home .glass > div { border-radius: 1.75rem; }
+#home .container > .reveal:last-of-type { max-width: 20rem; }
+#home .glass { padding: .65rem; border-radius: 46% 54% 43% 57% / 52% 43% 57% 48%; background: linear-gradient(145deg, color-mix(in srgb, var(--color-surface) 94%, transparent), color-mix(in srgb, var(--color-brand-soft) 58%, transparent)); box-shadow: 0 24px 50px color-mix(in srgb, var(--color-brand) 16%, transparent); }
+#home .glass > div { aspect-ratio: 1 / 1; border-radius: 43% 57% 52% 48% / 50% 44% 56% 50%; }
 #home .reveal:first-child .eyebrow { display: inline-flex; border: 1px solid var(--color-line); border-radius: 999px; padding: .4rem .75rem; background: var(--color-surface); letter-spacing: .1em; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; border-radius:.8rem; padding:.8rem 1.1rem; font-weight:700; transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease; } .button:hover { transform:translateY(-2px); } .button:focus-visible, a:focus-visible, button:focus-visible { outline:3px solid #818cf8; outline-offset:3px; }
 .button-primary { background:var(--color-brand); color:#fff; box-shadow:0 10px 24px #4f46e544; } .button-primary:hover { background:#4338ca; } .button-secondary { border:1px solid var(--color-line); color:var(--color-ink); background:var(--color-surface); }
 .reveal { opacity:0; transform:translateY(18px); transition: opacity .65s ease, transform .65s ease; } .reveal.is-visible { opacity:1; transform:none; }
 .tag { display:inline-flex; border-radius:999px; padding:.3rem .6rem; font-size:.75rem; font-weight:650; background:var(--color-brand-soft); color:var(--color-brand); }
-#about header { padding-bottom: .5rem; }
-#about header h2 { max-width: 17ch; }
+#about header { max-width: none !important; padding-bottom: .5rem; }
+#about header h2 { max-width: 22ch; }
 #about article { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
 #about article:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--color-brand) 35%, var(--color-line)); box-shadow: 0 12px 28px color-mix(in srgb, var(--color-brand) 10%, transparent); }
 #about .mt-12 > article:first-child { overflow: hidden; background-image: linear-gradient(90deg, color-mix(in srgb, var(--color-canvas) 94%, transparent), color-mix(in srgb, var(--color-canvas) 62%, transparent)), url('/images/tuscany-landscape.svg'); background-position: center; background-size: cover; }

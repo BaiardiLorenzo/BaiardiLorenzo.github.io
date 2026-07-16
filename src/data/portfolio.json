@@ -594,12 +594,12 @@
   ],
   "hero": {
     "kicker": {
-      "en": "AI Software Engineer",
-      "it": "AI Software Engineer"
+      "en": "Lorenzo Baiardi · AI Software Engineer",
+      "it": "Lorenzo Baiardi · AI Software Engineer"
     },
     "title": {
-      "en": "I design intelligent products that turn <span class=\"text-brand\">complexity into useful experiences</span>.",
-      "it": "Progetto prodotti intelligenti che trasformano <span class=\"text-brand\">la complessità in esperienze utili</span>."
+      "en": "I build <span class=\"text-brand\">useful digital products</span> with AI.",
+      "it": "Creo <span class=\"text-brand\">prodotti digitali utili</span> con l'AI."
     },
     "description": {
       "en": "I work across AI, backend and full-stack development to connect models, data and interfaces into reliable products.",
@@ -648,8 +648,8 @@
       "it": "“Rendilo utile. Rendilo chiaro. Rendilo piacevole.”"
     },
     "text": {
-      "en": "Born in 2000, I have been drawn to technology and music since childhood. Turning that curiosity into a career—and a lasting personal passion—has always been my goal. Today I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I turn complex needs into reliable AI, backend and full-stack products, connecting language models, data, enterprise tools and real-world workflows.",
-      "it": "Classe 2000, sono appassionato di tecnologia e musica fin da piccolo. Ho sempre desiderato dedicarmi a questo mondo non solo come lavoro, ma anche come passione personale. Oggi sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Trasformo esigenze complesse in prodotti AI, backend e full-stack affidabili, collegando modelli linguistici, dati, strumenti aziendali e processi reali."
+      "en": "I’m Lorenzo Baiardi. Born in 2000, I have been drawn to technology and music since childhood. Turning that curiosity into a career—and a lasting personal passion—has always been my goal. Today I am an AI Software Engineer with a Master’s degree in Artificial Intelligence and a background in Computer Science and Engineering. I turn complex needs into reliable AI, backend and full-stack products, connecting language models, data, enterprise tools and real-world workflows.",
+      "it": "Sono Lorenzo Baiardi. Classe 2000, sono appassionato di tecnologia e musica fin da piccolo. Ho sempre desiderato dedicarmi a questo mondo non solo come lavoro, ma anche come passione personale. Oggi sono un AI Software Engineer con una laurea magistrale in Intelligenza Artificiale e una formazione in Ingegneria Informatica. Trasformo esigenze complesse in prodotti AI, backend e full-stack affidabili, collegando modelli linguistici, dati, strumenti aziendali e processi reali."
     },
     "highlights": [
       {
