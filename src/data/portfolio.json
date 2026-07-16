@@ -934,7 +934,7 @@
       },
       {
         "id": "backend-development",
-        "order": 2,
+        "order": 3,
         "visible": true,
         "name": { "en": "Backend & APIs", "it": "Backend e API" },
         "description": { "en": "Services, integrations and APIs for production applications.", "it": "Servizi, integrazioni e API per applicazioni in produzione." },
@@ -945,8 +945,20 @@
         ]
       },
       {
+        "id": "computer-vision-media",
+        "order": 2,
+        "visible": true,
+        "name": { "en": "Computer Vision & Media", "it": "Computer vision e media" },
+        "description": { "en": "Image and video processing, generative enhancement and perceptual quality evaluation.", "it": "Elaborazione di immagini e video, miglioramento generativo e valutazione percettiva della qualità." },
+        "items": [
+          { "name": "Image Processing", "icon": "IMG" }, { "name": "Video Processing", "icon": "VID" }, { "name": "FFmpeg", "icon": "FF" },
+          { "name": "H.264/H.265", "icon": "H26" }, { "name": "PSNR", "icon": "PSNR" }, { "name": "LPIPS", "icon": "LP" },
+          { "name": "VMAF / VMAF-NEG", "icon": "VMAF" }
+        ]
+      },
+      {
         "id": "systems-infrastructure",
-        "order": 3,
+        "order": 4,
         "visible": true,
         "name": { "en": "Systems & Infrastructure", "it": "Sistemi e infrastruttura" },
         "description": { "en": "Performance-oriented programming, distributed systems and deployment tooling.", "it": "Programmazione orientata alle prestazioni, sistemi distribuiti e strumenti di deployment." },
@@ -957,7 +969,7 @@
       },
       {
         "id": "frontend-mobile",
-        "order": 4,
+        "order": 5,
         "visible": true,
         "name": { "en": "Frontend & Mobile", "it": "Frontend e mobile" },
         "description": { "en": "Web interfaces, cross-platform and native mobile development.", "it": "Interfacce web, sviluppo multipiattaforma e mobile nativo." },
@@ -967,7 +979,7 @@
       },
       {
         "id": "development-tools",
-        "order": 5,
+        "order": 6,
         "visible": true,
         "name": { "en": "Development Tools", "it": "Strumenti di sviluppo" },
         "description": { "en": "Tools for collaboration, delivery and AI-assisted development.", "it": "Strumenti per collaborazione, delivery e sviluppo assistito dall'AI." },
@@ -1650,8 +1662,34 @@
         "confidential": true
       },
       {
-        "id": "srv-unet",
+        "id": "orthogonal-adapter",
         "order": 5,
+        "visible": true,
+        "title": {
+          "en": "Orthogonal Adapter",
+          "it": "Orthogonal Adapter"
+        },
+        "description": {
+          "en": "Research project on adapting CLIP feature representations to new models through adapter networks, avoiding full retraining from scratch.",
+          "it": "Progetto di ricerca sull'adattamento delle feature di modelli CLIP a nuovi modelli tramite reti adapter, evitando il riaddestramento completo da zero."
+        },
+        "category": {
+          "en": "Computer Vision Research",
+          "it": "Ricerca in computer vision"
+        },
+        "date": {
+          "en": "Research",
+          "it": "Ricerca"
+        },
+        "featured": true,
+        "technologies": ["CLIP", "Adapter Networks", "Representation Learning", "PyTorch"],
+        "github": "https://github.com/infera-labs/orthogonal-adapter",
+        "confidential": true,
+        "image": "/images/project-adapter.svg"
+      },
+      {
+        "id": "srv-unet",
+        "order": 6,
         "visible": true,
         "title": {
           "en": "SRV-UNet",
@@ -1672,7 +1710,7 @@
         "featured": true,
         "technologies": ["Python", "PyTorch", "GANs", "VMAF", "H.265"],
         "github": "https://github.com/BaiardiLorenzo/srv-unet",
-        "image": "/images/project-notes.svg"
+        "image": "/images/project-vision.svg"
       },
       {
         "id": "perceiver",
@@ -1811,8 +1849,8 @@
       "it": "Idee, appunti e cose che sto esplorando."
     },
     "description": {
-      "en": "A personal board for short thoughts and longer articles about technology, projects and research. These sample posts can be replaced with new entries at any time.",
-      "it": "Una bacheca personale per pensieri brevi e articoli più approfonditi su tecnologia, progetti e ricerca. Questi post di esempio possono essere sostituiti o ampliati in qualsiasi momento."
+      "en": "A dedicated space for notes, technical reflections and project learnings. New posts will be published here when ready.",
+      "it": "Uno spazio dedicato ad appunti, riflessioni tecniche e lezioni apprese dai progetti. Nuovi contenuti saranno pubblicati qui quando pronti."
     },
     "readLabel": {
       "en": "Read post",
@@ -1822,7 +1860,7 @@
       {
         "id": "reliable-rag",
         "order": 1,
-        "visible": true,
+        "visible": false,
         "published": {
           "en": "Planned",
           "it": "In programma"
@@ -1847,7 +1885,7 @@
       {
         "id": "agentic-workflows",
         "order": 2,
-        "visible": true,
+        "visible": false,
         "published": {
           "en": "Planned",
           "it": "In programma"
@@ -1872,7 +1910,7 @@
       {
         "id": "video-quality",
         "order": 3,
-        "visible": true,
+        "visible": false,
         "published": {
           "en": "Planned",
           "it": "In programma"
